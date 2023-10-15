@@ -1,6 +1,167 @@
 {
   "emails": [
     {
+      "date": "Sep 29, 2023",
+      "links": [
+        {
+          "description": "Mojo is a programming language that combines the usability of Python with the performance of C. It just came out this month, and already the freeCodeCamp community has developed a course for it. You'll learn how to leverage Mojo's strengths for developing AI systems. This beginner's course will walk you through how Mojo works, and teach you its Data Types, Control Flow, Libraries, and more.",
+          "link": "https://www.freecodecamp.org/news/new-mojo-programming-language-for-ai-developers/",
+          "order": "1",
+          "time_duration": "2",
+          "time_type": "hours"
+        },
+        {
+          "description": "Another emerging AI development tool is LangChain. It's a framework for Python and JavaScript that makes it easier to build apps around Large Language Models like GPT4. LangChain can help you connect various data sources to your model -- including your own databases. This project-based beginner's course will teach you how to get started with LangChain by coding your own pet name generator.",
+          "link": "https://www.freecodecamp.org/news/learn-langchain-for-llm-development/",
+          "order": "2",
+          "time_duration": "1",
+          "time_type": "hours"
+        },
+        {
+          "description": "But don't think that freeCodeCamp is just focused on cutting edge AI tools. This week we also published a comprehensive crash course on Java. Learn why Java is celebrated as a \"write once, run anywhere\" programming language. You'll get practice with Java fundamentals, and get exposure to the powerful Java Virtual Machine. The JVM handles memory management, garbage collection, multithreading, and even some of your application security. This course is a great place to get started with Java.",
+          "link": "https://www.freecodecamp.org/news/learn-the-basics-of-java-programming/",
+          "order": "3",
+          "time_duration": "4",
+          "time_type": "hours"
+        },
+        {
+          "description": "The 0/1 Knapsack Problem is an iconic optimization problem in computer science. Let's say you're in a hurry, and you need to pack your belongings into a knapsack that you can take with you. How do you maximize the value of your belongings given that you can only carry a certain amount of weight? To solve this problem, we're going to use C# and a coding approach called Dynamic Programming. freeCodeCamp instructor Gavin Lon teaches this course, and he even plays some electric guitar in the video. I think you'll dig it and learn a lot.",
+          "link": "https://www.freecodecamp.org/news/how-to-use-dynamic-programming-to-solve-the-0-1-knapsack-problem/",
+          "order": "4",
+          "time_duration": "1",
+          "time_type": "hours"
+        },
+        {
+          "description": "September 30th is World Translation Day. And the freeCodeCamp community is celebrating by publishing this full-length Localization Handbook that will show you how to translate your website or app into many world languages. Over the years, freeCodeCamp has published more than 11,000 coding tutorials. And we're working to localize these into many languages, so everyone can benefit from them. If you or your friends grew up speaking a language other than English, I encourage you to get involved. We have powerful software to help you make the most of any time you're able to volunteer.",
+          "link": "https://www.freecodecamp.org/news/localization-book-how-to-translate-your-website",
+          "order": "5"
+        }
+      ],
+      "quote": "Too many apparently \"simple\" technologies merely shift the complexity to other places: higher level tools, frameworks, package managers, wrappers, syntax extensions, etc. But well designed systems are simple to learn and use end-to-end, while permitting experts to build amazing things.",
+      "quote_author": "Chris Lattner, software engineer and designer of both the Mojo and Swift programming languages"
+    },
+    {
+      "date": "Sep 22, 2023",
+      "links": [
+        {
+          "description": "freeCodeCamp just published a comprehensive Python for Beginners course, taught by software engineer Dave Gray. You'll learn key Python concepts by building a series of mini projects. By the end of this course, you'll be familiar with Python Data Types, Loops, Modules, and even some Object-Oriented Programming. If you want to learn programming, or brush up on your fundamental skills, this course is an excellent place to start.",
+          "link": "https://www.freecodecamp.org/news/ultimate-beginners-python-course/",
+          "order": "1",
+          "time_duration": "9",
+          "time_type": "hours"
+        },
+        {
+          "description": "Learn to build your own AI Software-as-a-Service platform. In this intermediate course, you'll code an app where your users can drag in a PDF and immediately start chatting with an AI about the document. Along the way, you'll learn how to use Next.js, Tailwind CSS, and OpenAI's API, and Stripe's API. And you'll even learn how to deploy your app using Vercel.",
+          "link": "https://www.freecodecamp.org/news/build-and-deploy-an-ai-saas-with-paid-subscriptions/",
+          "order": "2",
+          "time_duration": "4",
+          "time_type": "hours"
+        },
+        {
+          "description": "And if you want to further improve your Front End Development skills, this course should do the trick. You'll code your own Search Engine-optimized blog, complete with custom fonts, light & dark themes, responsive design, and Markdown-based rendering. You'll learn modern tools like Next.js, Tailwind CSS, and Supabase.",
+          "link": "https://www.freecodecamp.org/news/build-an-seo-optimized-blog-with-next-js",
+          "order": "3",
+          "time_duration": "6",
+          "time_type": "hours"
+        },
+        {
+          "description": "One of the most important design decisions you can make is picking the right font. This involves so many style and legibility considerations. But you also want to keep performance in mind. This guide will help you choose the right fonts for your next project, and ensure that they load as quickly as possible for your users.",
+          "link": "https://www.freecodecamp.org/news/things-to-consider-when-picking-fonts/",
+          "order": "4",
+          "time_duration": "16",
+          "time_type": "minutes"
+        },
+        {
+          "description": "People often ask me: what's the best way to get practical experience as a developer? And I answer: contribute to open source projects. But that's easier said than done. Not only do you need to understand a project's codebase, but you also need to familiarize yourself with open source culture. This guide will help you learn how to communicate with project maintainers. That way you can succeed in getting your contributions merged, so you can get your code running in production.",
+          "link": "https://www.freecodecamp.org/news/how-to-contribute-to-open-source/",
+          "order": "5",
+          "time_duration": "20",
+          "time_type": "minutes"
+        }
+      ],
+      "quote": "Good design's not about what medium you're working in. It's about thinking hard about what you want to do. And what you have to work with before you start.",
+      "quote_author": "Susan Kare, Designer of the fonts and icons for the first Apple Macintosh, and pixel art pioneer"
+    },
+    {
+      "date": "Sep 15, 2023",
+      "links": [
+        {
+          "description": "freeCodeCamp just published a beginner AI course where you can code your own assistant. You'll learn about vector embeddings and how you can use them on top of GPT-4 and other Large Language Models. This way you can code your own AI assistant with output customized by you. For example, you can throw all 11,000 tutorials freeCodeCamp has published into a database, embed them, and then your AI assistant can retrieve relevant tutorials when you ask it a question. This may sound pretty advanced, but modern tools make this a lot easier. You'll learn how to use OpenAI's GPT-4 API, LangChain, data from Hugging Face, and age-old Natural Language Processing techniques.",
+          "link": "https://www.freecodecamp.org/news/vector-embeddings-course/",
+          "order": "1",
+          "time_duration": "1",
+          "time_type": "hours"
+        },
+        {
+          "description": "Dynamic Programming (DP) is a method for solving complicated problems by breaking them down into smaller bits. You then store the solutions to these sub-problems in a table, where they can be more efficiently accessed, so the computer doesn't need to recalculate them each time. This efficient DP approach comes up all the time in Algorithms & Data Structure coding interview questions. And this freeCodeCamp course will teach you how to ace those questions. We teach DP using Java. But if you know Python, C++, or JavaScript, you may be able to follow along as well.",
+          "link": "https://www.freecodecamp.org/news/learn-dynamic-programming-in-java/",
+          "order": "2",
+          "time_duration": "3",
+          "time_type": "hours"
+        },
+        {
+          "description": "Terraform is a powerful Infrastructure-as-Code DevOps tool. You can write Terraform code that provisions infrastructure from multiple cloud service providers at the same time. For example Amazon Web Services, Microsoft Azure, and Google Cloud Platform. freeCodeCamp uses Terraform extensively to wrangle our 100+ servers around the world. Now you can learn to leverage this power, too. And earn a professional certification while you're at it. This Terraform Certified Associate guide will help you grok the advanced concepts, modules, and workflows necessary to pass the exam. It also includes a full-length Terraform course freeCodeCamp published a few weeks ago.",
+          "link": "https://www.freecodecamp.org/news/terraform-certified-associate-003-study-notes/",
+          "order": "3",
+          "time_duration": "45",
+          "time_type": "minutes"
+        },
+        {
+          "description": "CSS transitions are a high-performance way to animate a webpage directly -- using its HTML elements. And this handbook will teach you how to harness their power. You'll learn about animation keyframes, timing, looping, and more.",
+          "link": "https://www.freecodecamp.org/news/css-transition-vs-css-animation-handbook/",
+          "order": "4"
+        },
+        {
+          "description": "Finally, freeCodeCamp published a Fundamentals of Finance and Economics course. It covers a lot of key concepts you learn in business school, such as Time-Value of Money, Capital Budgeting, Financial Statements, and how Macroeconomic Forces shape industries. We plan to publish a lot more courses like this one in the future, to complement our already massive selection of math and computer science courses.",
+          "link": "https://www.freecodecamp.org/news/fundamentals-of-finance-economics-for-businesses/",
+          "order": "5",
+          "time_duration": "2",
+          "time_type": "hours"
+        }
+      ],
+      "quote": "If \"Dynamic Programming\" didn't have such a cool name, it would be known as \"populating a table.\"",
+      "quote_author": "Mark Dominus, Software Engineer and Author of the book High Order Perl"
+    },
+    {
+      "bonus": "Also be sure to tell your Spanish-speaking friends that freeCodeCamp has a ton of courses in Spanish, including this new web dev course for beginners where you code your own Pok\u00e9mon pok\u00e9dex: https://www.freecodecamp.org/news/html-css-and-javascript-project-in-spanish-create-a-pokedex/",
+      "date": "Sep 8, 2023",
+      "links": [
+        {
+          "description": "The first time I used ChatGPT, I was impressed. But I didn't yet realize how useful it would become in my day-to-day work as a developer. Only after I learned some Prompt Engineering techniques did I get good at communicating with the AI. Now I'm much more effective at getting Large Language Models to do tasks for me. That's why I'm excited to share this new freeCodeCamp course on Prompt Engineering. Ania Kub\u00f3w will teach you techniques like Few-Shot Prompting, Vectors, Embeddings, and how to reduce AI hallucinations.",
+          "link": "https://www.freecodecamp.org/news/learn-prompt-engineering-full-course/",
+          "order": "1",
+          "time_duration": "1",
+          "time_type": "hours"
+        },
+        {
+          "description": "If you're brand new to HTML and CSS, this is the book for you. You'll learn about HTML, the skeleton of a webpage. You'll learn about CSS, the skin of a webpage. You'll even learn a little about JavaScript, the muscles of a webpage. Sprinkle in some DevTools and HTTP requests. Now you've got a proper web dev primer. Enjoy the book, and bookmark it for future reference as well.",
+          "link": "https://www.freecodecamp.org/news/html-css-handbook-for-beginners/",
+          "order": "2"
+        },
+        {
+          "description": "Code your own cloud storage app using contemporary web development tools. This course will teach you how to use TypeScript -- a version of JavaScript where all your variables are statically typed. This reduces bugs. You'll also use Next.js, a powerful front end framework. Then you'll layer on Tailwind CSS, a popular library for styling your user interface components. Finally, you'll learn how to use Firebase 9 to store your data.",
+          "link": "https://www.freecodecamp.org/news/full-stack-web-development-by-building-a-google-drive-clone-nextjs-firebase/",
+          "order": "3",
+          "time_duration": "3",
+          "time_type": "hours"
+        },
+        {
+          "description": "New developers often ask me how they can get some practical experience writing software. My answer: contribute to open source projects. There are thousands of software engineers out there who will review your work and give you feedback. Some of your code may even make it into production, where many people will benefit from it. Each open source contribution you make to a project like freeCodeCamp is a feather in your cap. And this book will show you how to get started with open source.",
+          "link": "https://www.freecodecamp.org/news/how-to-contribute-to-open-source-handbook/",
+          "order": "4"
+        },
+        {
+          "description": "How do you filter the signal from the noise? Why, through Signal Processing. This is the set of techniques that engineers have used for decades to make clearer television signals, phone calls, and even medical diagnostic images. This tutorial will bring you up to speed on Signal Processing and Fast Fourier Transforms, which underpin many file compression algorithms. You'll also learn about Causality, Linearity, and Time-invariance.",
+          "link": "https://www.freecodecamp.org/news/signal-processing-and-systems-in-programming/",
+          "order": "5",
+          "time_duration": "20",
+          "time_type": "minutes"
+        }
+      ],
+      "quote": "Being good at prompt engineering in 2023 is like being good at Googling in 2003.",
+      "quote_author": "Matt Turck, Venture Capitalist"
+    },
+    {
       "bonus": "Finally, I'm thrilled to introduce you to freeCodeCamp Press. These past few months, we've worked with developers from around the world to publish dozens of full length books and handbooks. Our goal is to share these tomes of wisdom with devs everywhere. You can bookmark these books to serve as a reference as you continue to expand your programming skills: https://www.freecodecamp.org/news/freecodecamp-press-books-handbooks/",
       "date": "Sep 1, 2023",
       "links": [
