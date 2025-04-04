@@ -1,0 +1,54 @@
+name: Build email JSON and RSS
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+jobs:
+  update:
+    name: Update the emails.json and emails.rss files
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v5.5.0
+        with:
+          python-version: '3.10'
+          architecture: 'x64'
+
+      - name: convert README to json
+        run: |
+          python convert_readme.py
+
+      - name: convert json to rss
+        run: |
+          python convert_json.py
+
+      - name: setup git config
+        run: |
+          git config user.name "Quincy Larson Emails Bot"
+          git config user.email "<>"
+          # echo ::set-output name=is_changed::$(git status --porcelain)
+          echo is_changed=$(git status --porcelain) >> $GITHUB_OUTPUT
+
+      - name: commit emails.json changes
+        run: |
+          if git status --porcelain | grep 'emails.json'; then
+            echo "Commiting changed emails.json file"
+            git add emails.json
+            git commit -m "chore: update emails.json"
+            git push origin main
+          else
+            echo "No email.json changes to be commited"
+          fi
+      - name: commit emails.rss changes
+        run: |
+          if git status --porcelain | grep 'emails.rss'; then
+            echo "Commiting changed emails.rss file"
+            git add emails.rss
+            git commit -m "chore: update emails.rss"
+            git push origin main
+          else
+            echo "No email.rss changes to be commited"
+          fi
