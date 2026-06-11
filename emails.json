@@ -1,7 +1,533 @@
 {
   "emails": [
     {
-      "date": "March 3, 2026",
+      "date": "June 5, 2026",
+      "links": [
+        {
+          "description": "freeCodeCamp just published a comprehensive Docker course that will teach you DevOps concepts and production app containerization. First you'll learn how Docker's container architecture works, and how it's different from traditional virtual machines. Then you'll get hands-on practice with common Docker commands, networking modes, volumes, bind mounts, image layers, and custom Dockerfiles. At the end of the course, you'll containerize a website and deploy it to the cloud.",
+          "link": "https://www.freecodecamp.org/news/docker-full-course/",
+          "order": "1",
+          "time_duration": "8",
+          "time_type": "hours"
+        },
+        {
+          "description": "freeCodeCamp also just published a course on building your own specialized agent. Prolific teacher Ania Kub\u00f3w will show you how to deploy a production-ready Slack chatbot using Node.js, Express, Slack Bolt, PostgreSQL, and Infrastructure-as-Code using Render blueprints.",
+          "link": "https://www.freecodecamp.org/news/build-your-own-ai-agent/",
+          "order": "2",
+          "time_duration": "2",
+          "time_type": "hours"
+        },
+        {
+          "description": "Learn how to spot problems in LLM-generated code like bloated components, messy state, weak data fetching patterns, and missing types. This tutorial will show you how to refactor the code into structures that are way easier to maintain. Remember, kids: despite the AI hype, your actual skills still matter.",
+          "link": "https://www.freecodecamp.org/news/stop-trusting-ai-code-blindly-a-react-code-refactoring-case-study/",
+          "order": "3",
+          "time_duration": "15",
+          "time_type": "minutes"
+        },
+        {
+          "description": "A lot of apps work great on your own machine, then fall apart the second you put them in the hands of real-world users. This Flutter tutorial will show you how mobile apps handle spotty networks, offline states, widget rebuilds, async pitfalls, memory leaks, and other rubber-meets-the-road problems. If you build mobile apps, this is well worth bookmarking.",
+          "link": "https://www.freecodecamp.org/news/what-production-ready-actually-means-in-flutter/",
+          "order": "4",
+          "time_duration": "25",
+          "time_type": "minutes"
+        },
+        {
+          "description": "And finally, if you're interested in embedded systems, freeCodeCamp just published a full-length handbook on building Bluetooth apps using Zephyr OS. You'll start with BLE fundamentals like GAP, GATT, services, and characteristics. Then you'll write real firmware for handling connections, reading sensor data, and building BLE peripherals that a phone can talk to. It also touches on security, debugging, power optimization, firmware updates, Bluetooth Mesh, and LE Audio.",
+          "link": "https://www.freecodecamp.org/news/how-to-build-bluetooth-applications-with-zephyr-os-a-handbook-for-devs/",
+          "order": "5",
+          "time_duration": "full-length",
+          "time_type": "handbook"
+        }
+      ],
+      "quote": "Why is it so hard to find DevOps professionals on Mars? Because there's no Terraform there yet.",
+      "quote_author": "Dangertwin88 on Reddit"
+    },
+    {
+      "date": "May 29, 2026",
+      "links": [
+        {
+          "description": "freeCodeCamp just published a comprehensive Figma course that will teach you how to design your own apps and websites. You'll learn about wireframes, color palettes, reusable components, layout grids, and more. Then you'll practice those skills by designing your own food delivery app, fitness tracker app, and donut shop website.",
+          "link": "https://www.freecodecamp.org/news/learn-figma-for-ui-ux-design",
+          "order": "1",
+          "time_duration": "8",
+          "time_type": "hours"
+        },
+        {
+          "description": "The freeCodeCamp community focuses on teaching core programming skills, but we also teach a lot of advanced AI and machine learning. This new course on Retrieval-Augmented Generation (RAG) goes way beyond simple chatbot stuff to cover challenges you'll face when deploying real AI systems to production. You'll learn about vector databases, chunking, similarity search, observability, security layers, and more.",
+          "link": "https://www.freecodecamp.org/news/production-rag-with-langchain-vector-databases/",
+          "order": "2",
+          "time_duration": "8",
+          "time_type": "hours"
+        },
+        {
+          "description": "LaTeX is the ultimate Swiss Army Knife for formatting text and equations in academic papers. Pretty much every PhD student I know uses LaTeX. And now you can harness this open source tool through freeCodeCamp's new 41-hour course. You'll practice formatting mathematical proofs, code blocks, and vector graphics. You'll even write your own custom LaTeX package.",
+          "link": "https://www.freecodecamp.org/news/learn-latex-in-41-hours/",
+          "order": "3"
+        },
+        {
+          "description": "freeCodeCamp also published a full length handbook on DevOps automation with Bash and Python. You'll work through five production-style scenarios: detecting abnormal AWS spend, correlating logs with trace IDs, spotting infrastructure drift outside Terraform, validating secret rotation, and automatically rolling back slow deployments. This is a practical guide for people who want to automate the work that ops teams actually do.",
+          "link": "https://www.freecodecamp.org/news/how-to-use-bash-python-for-real-devops-automation-handbook-with-production-use-cases/",
+          "order": "4"
+        },
+        {
+          "description": "We're big fans of Flutter at freeCodeCamp, and use it for building our open source iPhone and Android apps. We just published a new tutorial that will teach you Flutter error handling concepts like result types, monads, typed exceptions, and more. You can use these tools to catch failures before they cascade, and to harden your mobile app codebase.",
+          "link": "https://www.freecodecamp.org/news/advanced-error-handling-in-dart-records-result-types-monads-and-freezed-exceptions/",
+          "order": "5",
+          "time_duration": "21",
+          "time_type": "minutes"
+        }
+      ],
+      "quote": "The details are not the details. They make the design.",
+      "quote_author": "Charles Eames, designer, architect and filmmaker"
+    },
+    {
+      "date": "May 22, 2026",
+      "links": [
+        {
+          "description": "freeCodeCamp just published a new course that will teach you how to think in code. You'll learn a variety of key scripting language concepts: scope, closures, hoisting, execution context, prototypes, propagation, memoization, multithreading, and more. By the end of the course, you'll have a new mental framework for understanding how JavaScript and other programming languages work under the hood.",
+          "link": "https://www.freecodecamp.org/news/think-like-the-javascript-engine/",
+          "order": "1",
+          "time_duration": "5",
+          "time_type": "hours"
+        },
+        {
+          "description": "freeCodeCamp also published a course on Manus, a new workflow automation tool that runs inside of a sandboxed cloud computer. This beginner's course will walk you through using an agent to run deep research, gather data, and take actions on your behalf.",
+          "link": "https://www.freecodecamp.org/news/learn-to-build-automated-workflows-with-manus-ai/",
+          "order": "2",
+          "time_duration": "1",
+          "time_type": "hours"
+        },
+        {
+          "description": "Learn emerging best practices for staying private online. This tutorial will explain key concepts like browser fingerprinting, first-party tracking, metadata, and device telemetry. You'll see how privacy is more about separating your identities and reducing data exposure than it is about any one magic tool.",
+          "link": "https://www.freecodecamp.org/news/how-to-protect-your-privacy-online-in-2026/",
+          "order": "3",
+          "time_duration": "10",
+          "time_type": "minutes"
+        },
+        {
+          "description": "Learn how to build your own Open Source Intelligence (OSINT) agent with Python and Claude's Tool Use API. This tutorial will show you how to replace a fragmented manual workflow with an AI agent that can chain tools together and save a structured report. You can follow along at home and set up OpenOSINT, run investigations, and expose the tools to Claude Code through an MCP server.",
+          "link": "https://www.freecodecamp.org/news/build-autonomous-agent-in-python-using-claude/",
+          "order": "4",
+          "time_duration": "20",
+          "time_type": "minutes"
+        },
+        {
+          "description": "If you're interested in machine learning, freeCodeCamp just published an analysis of the now-famous \"Language Models are Few-Shot Learners\" academic paper. We explain few-shot learning and in-context learning in plain English. Then we walk through the paper's methodology, model architecture, experiments, and long-term impact.",
+          "link": "https://www.freecodecamp.org/news/ai-paper-review-language-models-are-few-shot-learners-gpt-3/",
+          "order": "5",
+          "time_duration": "40",
+          "time_type": "minutes"
+        }
+      ],
+      "quote": "Anyone who has lost track of time when using a computer knows the propensity to dream, the urge to make dreams come true, and the tendency to miss lunch.",
+      "quote_author": "Tim Berners-Lee, creator of HTML and inventor of the World Wide Web"
+    },
+    {
+      "date": "May 15, 2026",
+      "links": [
+        {
+          "description": "freeCodeCamp just published a beginner-friendly course on Claude Code. You can use this command-line tool to inspect your local codebase, run terminal commands, execute tests, and handle a ton of your boilerplate code. This course starts with setup, then moves into practical workflows like project scaffolding, autonomous debugging, multi-file navigation, and architectural audits.",
+          "link": "https://www.freecodecamp.org/news/claude-code-for-beginners/",
+          "order": "1",
+          "time_duration": "4",
+          "time_type": "hours"
+        },
+        {
+          "description": "If you're looking for a beginner-friendly path into DevOps, earning an AWS certification may be the way to go. freeCodeCamp just published a course to help you prepare for the AWS Certified Cloud Practitioner exam. This course is newly updated for 2026. You'll learn cloud computing concepts, architecture, deployment models, and more.",
+          "link": "https://www.freecodecamp.org/news/aws-certified-cloud-practitioner-study-course-pass-the-exam-with-this-free-13-hour-course/",
+          "order": "2",
+          "time_duration": "13",
+          "time_type": "hours"
+        },
+        {
+          "description": "My Stanford hackathon documentary is live. 15,000 students from around the world applied. Of these, only 1,000 were admitted. These elite few competed for more than 500k in prizes. Stanford flew me out to film all three days of the event and interview more than 100 devs. You'll see robot boxing, llamas, and tons of project demos. One dev got attacked out of nowhere by a bipedal robot right in the middle of my interview.",
+          "link": "https://www.freecodecamp.org/news/inside-stanford-elite-student-hackathon-full-documentary",
+          "order": "3"
+        },
+        {
+          "description": "Learn how to build production-ready AI features into your mobile apps using Flutter. This full-length handbook will teach you how to implement streaming responses, safety filters, and prompt injection protection. You'll also learn about graceful degradation, cost management, and app store policy gotchas.",
+          "link": "https://www.freecodecamp.org/news/how-to-build-production-ready-ai-features-with-flutter-handbook-for-devs/",
+          "order": "4"
+        },
+        {
+          "description": "Learn how to make your interfaces more intuitive through Human-Centered Design principles. You'll get exposure to academic theories like Fitts's Law, Hick's Law, Jakob's Law, the Goal-Gradient Hypothesis, the Doherty Threshold, Postel's Law, Occam's Razor, and more.",
+          "link": "https://www.freecodecamp.org/news/how-to-apply-academic-theories-to-human-centered-web-design-handbook/",
+          "order": "5"
+        }
+      ],
+      "quote": "We can only see a short distance ahead, but we can see plenty there that needs to be done.",
+      "quote_author": "Alan Turing"
+    },
+    {
+      "date": "May 8, 2026",
+      "links": [
+        {
+          "description": "freeCodeCamp just published a new course on how the JavaScript Event Loop works. JS is famously single-threaded. Yet it can still power apps without freezing up. This course will show you how. You'll learn about the Call Stack, Web APIs, Task Queues, Microtask Queues, and the Event Loop itself. The instructor uses clear animations and step-by-step diagrams throughout.",
+          "link": "https://www.freecodecamp.org/news/mastering-the-javascript-event-loop/",
+          "order": "1",
+          "time_duration": "1",
+          "time_type": "hours"
+        },
+        {
+          "description": "freeCodeCamp also published a full length handbook on embedded memory architecture. If you've ever wondered why the same code can run fast in one scenario and slow in another, memory is often the reason. First you'll learn the differences between ITCM, DTCM, and DDR memory. You'll also learn about linker scripts, firmware memory profiling, and more. If you're interested in embedded systems, this is well worth bookmarking.",
+          "link": "https://www.freecodecamp.org/news/itcm-vs-dtcm-vs-ddr-embedded-memory-types-explained-handbook/",
+          "order": "2"
+        },
+        {
+          "description": "On this week's freeCodeCamp podcast I interview Rachel Fernandez. She's a computer science student and Stanford's youngest instructor. We talk about the state of computer science education in 2026, why C++ is still an important language, and how developers can use AI tools without \"deskilling\" themselves.",
+          "link": "https://www.freecodecamp.org/news/stanford-s-youngest-instructor-talks-infosec-ai-and-catching-cheaters-rachel-fernandez-interview-podcast-217/",
+          "order": "3",
+          "time_duration": "1",
+          "time_type": "hours"
+        },
+        {
+          "description": "freeCodeCamp also published a handbook that explores how one team built a codebase-aware AI reviewer. They moved their architectural rules and team memory out of Slack threads and into files the agent can actually read, like AGENTS.md and CLAUDE.md. The handbook also gets into guardrails, like keeping the reviewer read-only by default.",
+          "link": "https://www.freecodecamp.org/news/how-to-unblock-ai-pr-review-bottleneck-handbook/",
+          "order": "4"
+        },
+        {
+          "description": "And finally, if you're a front end engineer working with microservices, this article should help. You'll learn how to deal with multiple service contracts, partial failures, and distributed state. This guide also explains the Backend-for-Frontend pattern.",
+          "link": "https://www.freecodecamp.org/news/how-to-navigate-microservices-as-a-frontend-engineer/",
+          "order": "5",
+          "time_duration": "20",
+          "time_type": "minutes"
+        }
+      ],
+      "quote": "I feel very lucky that I had to learn from the textbook, that I had to write the papers, and that I had to learn how to communicate on my own. I feel very lucky that I didn't have AI tools when I was in high school.",
+      "quote_author": "Stanford Computer Science instructor Rachel Fernandez on this week's freeCodeCamp podcast"
+    },
+    {
+      "date": "May 1, 2026",
+      "links": [
+        {
+          "description": "freeCodeCamp just published a comprehensive course that will teach you Information Technology fundamentals. You'll learn about hardware, networking, security, databases, DNS, Cloud, Git, and even some Linux basics. This is a good starting point for a career in IT, systems administration, network engineering, and it doesn't hurt for developers in general to understand these concepts. Dig in.",
+          "link": "https://www.freecodecamp.org/news/learn-hardware-cloud-devops-networking-security-databases-dns-git-and-linux/",
+          "order": "1",
+          "time_duration": "13",
+          "time_type": "hours"
+        },
+        {
+          "description": "I filmed a new full-length documentary! Stanford invited me to cover their hackathon, TreeHacks 2026. In total, 15,000 students from around the world applied. Of these only 1,000 were admitted. These elite few competed for more than 500k in prizes. I filmed all 3 days of the event and interviewed more than 100 devs. You'll see robot boxing, llamas, and tons of project demos. One dev got attacked out of nowhere by a bipedal robot right in the middle of my interview. You can watch the documentary in full right now.",
+          "link": "https://www.freecodecamp.org/news/inside-stanford-elite-student-hackathon-full-documentary",
+          "order": "2"
+        },
+        {
+          "description": "freeCodeCamp also just published a course on 3D web development with Blender and Three.js. You'll build an interactive \"cozy cafe\" portfolio from scratch while learning how 3D art and web development fit together. The course covers subdivision modeling, texture painting, lighting, and performance optimization. You'll make your scene interactive so people can click around and explore it. By the end of the course, you'll have built two complete 3D scenes and learned how to deploy them to the web.",
+          "link": "https://www.freecodecamp.org/news/3d-web-development-with-blender-and-three-js/",
+          "order": "3",
+          "time_duration": "5",
+          "time_type": "hours"
+        },
+        {
+          "description": "Learn how to dockerize your own Go project. First this beginner-friendly tutorial explains containerization in plain English. Then it walks you through building a Dockerfile for a Go app. You'll learn about images, containers, volumes, and Docker Compose. If Docker still feels a bit abstract to you, code along at home and you'll feel the concrete start to set.",
+          "link": "https://www.freecodecamp.org/news/how-to-dockerize-a-go-application-full-step-by-step-walkthrough/",
+          "order": "4",
+          "time_duration": "25",
+          "time_type": "minutes"
+        },
+        {
+          "description": "Learn how to use Toyota's \"5 Whys\" technique to get past surface-level fixes and diagnose the real cause of a problem. This tutorial shows how you can move from symptoms to system-level causes by repeatedly asking why, then checking each answer against your evidence.",
+          "link": "https://www.freecodecamp.org/news/from-symptoms-to-root-cause-how-to-use-the-5-whys-technique/",
+          "order": "5",
+          "time_duration": "20",
+          "time_type": "minutes"
+        }
+      ],
+      "quote": "A computer once beat me at chess. But it was no match for me at kickboxing.",
+      "quote_author": "Emo Philips"
+    },
+    {
+      "date": "April 23, 2026",
+      "links": [
+        {
+          "description": "freeCodeCamp just published an automation for beginners course. You'll learn how to automate your routine daily tasks by piping together triggers and actions. By the end of the course, you'll have your own Model Context Protocol server that can share info between your productivity apps and your agents.",
+          "link": "https://www.freecodecamp.org/news/reclaim-your-time-master-automation-with-zapier/",
+          "order": "1",
+          "time_duration": "4",
+          "time_type": "hours"
+        },
+        {
+          "description": "freeCodeCamp also published a full-length handbook on data quality. You'll learn the most common ways that bad data enters a system, and how to prevent it. You'll get exposure to the different layers where data validation needs to happen: front end, back end, database, business logic, and data ingestion. The handbook will also walk you through testing strategies to keep bad data out of your projects.",
+          "link": "https://www.freecodecamp.org/news/data-quality-handbook-data-errors-the-developer-s-role-validation-layers/",
+          "order": "2",
+          "time_duration": "full-length",
+          "time_type": "handbook"
+        },
+        {
+          "description": "On this week's freeCodeCamp podcast I interview Jessica Rose. She's a developer and teacher who's worked on open data projects at Mozilla and on lots of open source projects. We talk about how the whole world is hard right now, and how embracing that difficulty instead of avoiding it can make you a better thinker. She also shares why building \"silly little things\" is one of the best things you can do as a learner. Her online bootcamp is called the Bad Website Club and is based on the freeCodeCamp front-end development curriculum. It starts on April 24.",
+          "link": "https://www.freecodecamp.org/news/how-to-friction-max-your-learning-with-software-engineer-jessica-rose-podcast-216/",
+          "order": "3",
+          "time_duration": "1",
+          "time_type": "hours"
+        },
+        {
+          "description": "AI Governance may sound like something only managers need to worry about. But in practice, it's us developers who have to actually build the responsible AI systems. You can bookmark this new freeCodeCamp handbook and code along with four hands-on Python projects: a model card generator, a bias detection pipeline, an audit trail logger, and a human-in-the-loop escalation system.",
+          "link": "https://www.freecodecamp.org/news/the-ai-governance-handbook-build-responsible-ai-systems/",
+          "order": "4"
+        },
+        {
+          "description": "There are so many conflicting takes on AI and how it's changing the field of software engineering. This new essay by a CTO and prolific freeCodeCamp contributor will help you find the signal in the noise. He lays out a practical roadmap for strengthening your fundamentals, getting better at debugging, and building a stronger proof of work.",
+          "link": "https://www.freecodecamp.org/news/the-new-definition-of-software-engineering-in-the-age-of-ai/",
+          "order": "5",
+          "time_duration": "20",
+          "time_type": "minutes"
+        }
+      ],
+      "quote": "Folks who are overly-focused on AI tools may tell you: \u2018Don't bother building expertise.' I say: what a deeply suspect piece of advice.",
+      "quote_author": "Developer Jessica Rose, who runs the Bad Website Club, on this week's freeCodeCamp podcast"
+    },
+    {
+      "date": "April 17, 2026",
+      "links": [
+        {
+          "description": "freeCodeCamp just published a new course on software system design fundamentals. You'll learn about databases, scaling, load balancing, and designing APIs with both REST and GraphQL. Once you grasp all these concepts, you'll be able to build better apps, websites, and back-end tools.",
+          "link": "https://www.freecodecamp.org/news/learn-software-system-design/",
+          "order": "1",
+          "time_duration": "2",
+          "time_type": "hours"
+        },
+        {
+          "description": "freeCodeCamp also published a full-length handbook on data quality. It'll introduce you to the types of data errors that silently break systems. Learn how to avoid missing fields, bad formats, logical inconsistencies, duplicate records, and more. You'll also learn how validation works across your front-end, back-end, database, service layer, and test suite. This is well worth bookmarking.",
+          "link": "https://www.freecodecamp.org/news/data-quality-handbook-data-errors-the-developer-s-role-validation-layers/",
+          "order": "2",
+          "time_duration": "full-length",
+          "time_type": "handbook"
+        },
+        {
+          "description": "On this week's freeCodeCamp podcast I interview Mark Mahoney. He worked as a dev then spent 23 years as a computer science professor. He also teaches thousands of devs through his programming courses he built on top of his own open source platform. We talk about why learning programming the hard way is still the right way, how to avoid deskilling yourself with LLM tools, and why now is a great time to study computer science.",
+          "link": "https://www.freecodecamp.org/news/how-to-learn-programming-and-cs-in-the-ai-hype-era-interview-with-dev-and-prof-mark-mahoney-podcast-215/",
+          "order": "3",
+          "time_duration": "1",
+          "time_type": "hours"
+        },
+        {
+          "description": "freeCodeCamp also just published a course on using OpenAI's new Codex tool. Andrew Brown is a CTO who has decades of experience writing code manually. So it's fun to watch him put coding agents through their paces. You'll learn how to manage big context windows, work with sessions, sculpt your project guidance files, and use sandboxing to minimize the ever-present risk that your agents are going to go WarGames on you.",
+          "link": "https://www.freecodecamp.org/news/openai-codex-essentials-ai-assisted-agentic-development-course/",
+          "order": "4",
+          "time_duration": "5",
+          "time_type": "hours"
+        },
+        {
+          "description": "And if you're wanting to get started with Infrastructure as Code, this Terraform tutorial is good eats. You'll learn Terraform's core workflows, then use them to manage applications, databases, networking, secrets, scaling, and deployment pipelines in a massively repeatable way.",
+          "link": "https://www.freecodecamp.org/news/how-to-get-started-with-terraform/",
+          "order": "5",
+          "time_duration": "15",
+          "time_type": "minutes"
+        }
+      ],
+      "quote": "The best way to learn is just build, build, build, get stuck, get yourself unstuck, and try to take away new lessons every time you do that.",
+      "quote_author": "Computer Science professor Mark Mahoney on this week's freeCodeCamp podcast"
+    },
+    {
+      "date": "April 10, 2026",
+      "links": [
+        {
+          "description": "freeCodeCamp just published a new Python course that will teach you how to program your own aerial drone. You don't need to own a drone. You'll use the PySimverse simulator to practice autonomous flight. First you'll learn the basics of drone components, 3D movement, and common computer vision tasks. Then you'll learn about navigation, image capture, hand gesture control, autonomous following, and more.",
+          "link": "https://www.freecodecamp.org/news/master-ai-drone-programming/",
+          "order": "1",
+          "time_duration": "2",
+          "time_type": "hours"
+        },
+        {
+          "description": "freeCodeCamp also published a massive course that will teach you how to program NVIDIA's H100 GPUs using CUDA. You'll learn about CUTLASS optimizations, multi-GPU scaling, and the primitives developers use to train large models.",
+          "link": "https://www.freecodecamp.org/news/cuda-programming-for-nvidia-h100s",
+          "order": "2",
+          "time_duration": "24",
+          "time_type": "hours"
+        },
+        {
+          "description": "On this week's freeCodeCamp podcast I interview Chris Griffing, a software engineer who has spent 15,031 hours coding live on Twitch. After high school he spent 10 years doing odd jobs at ski resorts so he could focus on snowboarding. He taught himself programming at age 28 by building websites for his friends. We talk about how learning Go made him a better Rust developer, why he thinks it's good to become a polyglot, and how he uses LLM tools while still building most codebases manually.",
+          "link": "https://www.freecodecamp.org/news/lessons-from-15-031-hours-of-coding-live-on-twitch-with-chris-griffing-podcast-214/",
+          "order": "3",
+          "time_duration": "1",
+          "time_type": "hours"
+        },
+        {
+          "description": "If you've ever wanted to build a video editor or live streaming tool that runs entirely in a browser, this handbook is worth bookmarking. You'll see how the WebCodecs API can give you low-level, hardware-accelerated control over video processing. You'll learn key concepts like video frames, codecs, containers, and muxing.",
+          "link": "https://www.freecodecamp.org/news/the-webcodecs-handbook-native-video-processing-in-the-browser/",
+          "order": "4"
+        },
+        {
+          "description": "Kubernetes doesn't have a built-in user database. Instead it relies on a chain of authenticators. This course will teach you how x509 client certificates work, why they're not ideal for human users in production, and how to instead deploy your own self-hosted browser-based OpenID Connect login.",
+          "link": "https://www.freecodecamp.org/news/how-to-authenticate-users-in-kubernetes-x509-certificates-oidc-and-cloud-identity/",
+          "order": "5",
+          "time_duration": "29",
+          "time_type": "minutes"
+        }
+      ],
+      "quote": "There will be room for experts, despite AI tool improvements. The way that we get things done may change. But that was always going to happen.",
+      "quote_author": "Software Engineer Chris Griffing on this week's freeCodeCamp podcast"
+    },
+    {
+      "date": "April 3, 2026",
+      "links": [
+        {
+          "description": "freeCodeCamp just published a new course on AI-assisted software development. You'll learn common terminal workflows and tips for \"pair programming\" alongside LLM tools. You'll also get exposure to  tools like GitHub Copilot, Claude Code, Gemini CLI, and OpenClaw. At the end of the day, the entire goal of using these tools is to build more features without compromising the maintainability of your codebase.",
+          "link": "https://www.freecodecamp.org/news/ai-tools-for-developers/",
+          "order": "1",
+          "time_duration": "2",
+          "time_type": "hours"
+        },
+        {
+          "description": "freeCodeCamp also published a beginner level course on AI literacy for everybody that you can also share with your family. First you'll learn about the two traits that define artificial intelligence: autonomy and adaptivity. Then you'll build your own image classifier right on your own phone or laptop. This course also delves into considerations like algorithmic bias and the environmental costs of training LLMs.",
+          "link": "https://www.freecodecamp.org/news/ai-literacy-for-everybody/",
+          "order": "2",
+          "time_duration": "1",
+          "time_type": "hours"
+        },
+        {
+          "description": "On this week's freeCodeCamp podcast I interview Landon Gray. He's a software engineer who spent years working at agencies, then taught himself AI-assisted software development. We talk about why Large Language Models are just raw fuel, and why the harness code around them matters so much more. We also talk about his contributions to the Ruby Machine Learning ecosystem. Even at his level of experience, Landon still firmly encourages devs to build their professional network through conferences and talks.",
+          "link": "https://www.freecodecamp.org/news/what-happens-when-the-model-can-t-fix-it-interview-with-software-engineer-landon-gray-podcast-213/",
+          "order": "3",
+          "time_duration": "1",
+          "time_type": "hours"
+        },
+        {
+          "description": "Learn how to build your own QR code generator using JavaScript. This tutorial will walk you through generating QR codes entirely in a browser without the need for a backend. You'll learn how to validate input, clear previous output, and use a JavaScript library to render the code instantly on the client side. Then you'll see how to extend the project with downloads, custom styling, WiFi support, and more.",
+          "link": "https://www.freecodecamp.org/news/how-to-build-a-qr-code-generator-using-javascript/",
+          "order": "4",
+          "time_duration": "7",
+          "time_type": "minutes"
+        },
+        {
+          "description": "I'm thrilled to announce that the Bad Website Club is back for another Responsive Web Design bootcamp based on freeCodeCamp's curriculum. It starts April 24 and runs for 10 weeks. You can join our Discord community and tune in for live streams. It's led by volunteer devs who are passionate about helping folks learn CSS and JavaScript fundamentals.",
+          "link": "https://www.freecodecamp.org/news/bad-website-club-bootcamp-based-on-freecodecamp-rwd-cert/",
+          "order": "5",
+          "time_duration": "5",
+          "time_type": "minutes"
+        }
+      ],
+      "quote": "LLM tools accelerate everything. But if you're doing the wrong thing, they just accelerate that and proliferate that everywhere. So you still have to have the fundamentals and know how to design software and think about software.",
+      "quote_author": "Software Engineer Landon Gray on this week's freeCodeCamp podcast"
+    },
+    {
+      "date": "March 27, 2026",
+      "links": [
+        {
+          "description": "freeCodeCamp just published a comprehensive course that will walk you through using the popular AI-assisted development tool Claude Code. You'll learn about Code Harnesses, Agentic Loops, Sandboxing, and other key concepts. By the end of the course you'll be able to spin up an entire fleet of agents to help you fix bugs and build out new features.",
+          "link": "https://www.freecodecamp.org/news/claude-code-essentials-exampro/",
+          "order": "1",
+          "time_duration": "12",
+          "time_type": "hours"
+        },
+        {
+          "description": "We also published a course on the Hugging Face tool ecosystem. You'll learn how to connect your models, datasets, and deployment tools into a single unified build pipeline.",
+          "link": "https://www.freecodecamp.org/news/deploying-ai-models-with-hugging-face/",
+          "order": "2",
+          "time_duration": "7",
+          "time_type": "hours"
+        },
+        {
+          "description": "On this week's podcast I interview Chris Coyier. He's a front-end dev who built CodePen and the influential CSS Tricks blog. He shares his thoughts on front-end development tools and how he thinks they're 90% of the way to where he ideally wants them. He also explains why highly skilled devs who are working on novel problems don't need to worry about AI disrupting their careers.",
+          "link": "https://www.freecodecamp.org/news/the-world-still-needs-people-who-care-codepen-founder-chris-coyier-interview-podcast-212/",
+          "order": "3",
+          "time_duration": "1",
+          "time_type": "hours"
+        },
+        {
+          "description": "Learn how to secure your Kubernetes Cluster. This in-depth tutorial starts by exploring real-world security breaches at big companies like Tesla, Shopify, and Capital One. Then it walks you through how to prevent each of these types of attacks by hardening your setup.",
+          "link": "https://www.freecodecamp.org/news/how-to-secure-a-kubernetes-cluster-handbook/",
+          "order": "4",
+          "time_duration": "1",
+          "time_type": "hours"
+        },
+        {
+          "description": "Tell your Spanish-speaking friends: freeCodeCamp just published a new Spanish-language course on SQL and relational databases. It covers tables, foreign keys, queries, data manipulation, and more.",
+          "link": "https://www.freecodecamp.org/news/learn-sql-course-for-beginners-in-spanish/",
+          "order": "5",
+          "time_duration": "4",
+          "time_type": "hours"
+        }
+      ],
+      "quote": "I'll probably be explaining CSS border-radius tricks into the dirt with a stick after the apocalypse.",
+      "quote_author": "Software Engineer and prolific teacher Chris Coyier on this week's freeCodeCamp podcast"
+    },
+    {
+      "date": "March 20, 2026",
+      "links": [
+        {
+          "description": "freeCodeCamp just published a new YouTube course that will teach you beginner Front-end Development skills like HTML, CSS, and JavaScript. You can code along at home and build a variety of projects: your own interactive quiz game, a currency converter app, and even a Trello-style kanban board. Along the way you'll learn how to use APIs and local storage to extend the functionality of these bite-sized apps.",
+          "link": "https://www.freecodecamp.org/news/build-19-web-dev-projects-using-html-css-javascript/",
+          "order": "1",
+          "time_duration": "12",
+          "time_type": "hours"
+        },
+        {
+          "description": "Learn how to properly test your software and ensure it doesn't break when you add new features. Prolific freeCodeCamp instructor Beau Carnes teaches this course. He'll introduce you to the Testing Pyramid and show you how to balance fast unit tests against complex end-to-end user journeys. You'll also learn how to automate some of this testing using an open source library called Playwright and an LLM testing tool.",
+          "link": "https://www.freecodecamp.org/news/software-testing-with-playwright/",
+          "order": "2",
+          "time_duration": "1",
+          "time_type": "hours"
+        },
+        {
+          "description": "On this week's podcast I interview Luke Ciciliano, a software engineer who has hundreds of freelance clients. He shares tips for building your own software consultancy in your city and winning clients. He's confident that AI tools are actually creating MORE potential small business customers, not fewer. He walks through how he engages clients and closes deals, and why he thinks building long-term relationships is the key.",
+          "link": "https://www.freecodecamp.org/news/how-to-land-freelance-clients-with-small-business-whisperer-luke-ciciliano-developer-interview-podcast-211/",
+          "order": "3",
+          "time_duration": "1",
+          "time_type": "hours"
+        },
+        {
+          "description": "More and more apps are relying on probabilistic LLM output alongside deterministic API calls. This makes life harder for devs who now need to ensure that hallucinations don't escape to end users. freeCodeCamp just published this advanced observability tutorial that will teach you emerging best practices and architectural patterns for dealing with this.",
+          "link": "https://www.freecodecamp.org/news/build-end-to-end-llm-observability-in-fastapi-with-opentelemetry/",
+          "order": "4",
+          "time_duration": "40",
+          "time_type": "minutes"
+        },
+        {
+          "description": "Learn how to containerize your MLOps pipelines. This tutorial is the result of hard-won deployment wisdom. The author spent three weeks debugging a Python library error due to dependency conflicts. His eventual answer: containerize entire project with Docker. This tutorial will show you how to structure your containers with multi-stage builds. You'll also learn how to set up experiment tracking with MLflow, versioning with DVC, GPU passthrough, and other advanced techniques.",
+          "link": "https://www.freecodecamp.org/news/containerize-mlops-pipeline-from-training-to-serving/",
+          "order": "5",
+          "time_duration": "40",
+          "time_type": "minutes"
+        }
+      ],
+      "quote": "We don't always appreciate how technologically illiterate a lot of society still is. No matter how low-code, no-code, or simple these tools become, there's always going to be a large group of people who either can't do it themselves or just won't. They may be intimidated by it, or they may not want to risk doing it badly. I've come to appreciate that no matter how simple the tools get, there's always going to be work there for somebody to do.",
+      "quote_author": "Software Engineer and prolific freelance dev Luke Ciciliano on this week's freeCodeCamp podcast"
+    },
+    {
+      "date": "March 13, 2026",
+      "links": [
+        {
+          "description": "freeCodeCamp just published a comprehensive DevOps course that will teach you how to deploy your apps to production safely. You'll build your own CI/CD (Continuous Integration / Continuous Delivery) pipeline. Along the way you'll learn about branching strategies, Jenkins Freestyle Jobs, GitFlow, Maven, and more. This is a perfect way to build your skills over spring break.",
+          "link": "https://www.freecodecamp.org/news/ci-cd-in-production-with-jenkins/",
+          "order": "1",
+          "time_duration": "17",
+          "time_type": "hours"
+        },
+        {
+          "description": "Learn how to fine-tune an LLM to incorporate your own proprietary data. This is super useful if you need off-the-shelf LLMs to do novel tasks that they weren't originally optimized for. This course will teach you all about Parameter-Efficient Fine-Tuning, and how to use techniques like LoRA and QLoRA to train models on consumer-grade hardware. No data center needed.",
+          "link": "https://www.freecodecamp.org/news/learn-how-to-fine-tune-llms-in-12-hours/",
+          "order": "2",
+          "time_duration": "12",
+          "time_type": "hours"
+        },
+        {
+          "description": "On this week's podcast I interview software engineer Justin Searls who ran his own software development agency for 15 years. At age 38, he retired and moved to Japan. He has some controversial takes on AI-assisted development. He talks about how he thinks software development is ceasing to be a team sport and his vision of a future where individual devs just work directly for the clients who are paying them to build projects. Justin also shares tips for how folks entering the field can use emerging tools to get an edge over more experienced devs.",
+          "link": "https://www.freecodecamp.org/news/there-are-2-kinds-of-devs-one-of-them-is-screwed-justin-searls-interview-podcast-210/",
+          "order": "3",
+          "time_duration": "1",
+          "time_type": "hours"
+        },
+        {
+          "description": "Learn how to protect your sensitive data by running your LLMs locally. This quick tutorial will show you how to get up and running with Ollama, Python, LangChain, and LangGraph. It will also walk you through the various trade-offs you face when you avoid sharing your data with big tech companies.",
+          "link": "https://www.freecodecamp.org/news/protect-sensitive-data-with-local-llms/",
+          "order": "4",
+          "time_duration": "15",
+          "time_type": "minutes"
+        },
+        {
+          "description": "Learn how agents are changing the field of software development. This in-depth tutorial will get you hands-on experience with building your own Flutter mobile app using Antigravity and Stitch. You don't even need to know Flutter. You just need to understand the core concepts and make the architectural decisions. You'll quickly see how sophisticated these tools have gotten over the past few months.",
+          "link": "https://www.freecodecamp.org/news/learn-how-ai-agents-are-changing-development-by-building-a-flutter-app/",
+          "order": "5",
+          "time_duration": "40",
+          "time_type": "minutes"
+        }
+      ],
+      "quote": "If you're out there learning programming right now, build your new project, build it to be valuable, and see it through to completion.",
+      "quote_author": "Software Engineer Justin Searls on this week's freeCodeCamp podcast"
+    },
+    {
+      "date": "March 6, 2026",
       "links": [
         {
           "description": "If you're interested in learning about AI infrastructure, freeCodeCamp just published this new course that will help you pass the NVIDIA Infrastructure and Operations Certification Exam. Andrew Brown is a CTO who has passed practically every DevOps exam under the sun, and he teaches this course. He'll introduce you to key concepts like GPU architecture, CUDA, and use cases for Accelerated Computing. Even if you decide not to pursue the certification, you'll still learn a lot from this course.",
@@ -367,7 +893,6 @@
       "quote_author": "John von Neumann, mathematician and creator of von Neumann computer architecture, which is almost certainly used in the device that you're reading this on"
     },
     {
-      "bonus": "*\"The day you stop waiting for your manager to tell you what's broken, and you start fixing the things everyone else is ignoring, is the day you start moving up.\"* - Software Developer Santosh Yadav on this week's freeCodeCamp podcast",
       "date": "December 24, 2025",
       "links": [
         {
@@ -385,7 +910,9 @@
         {
           "description": "And now for some advanced learning resources to tide you over the holiday break. First, learn eBPF Tracing for when you're debugging Kubernetes apps, but your logs are failing you.",
           "link": "https://www.freecodecamp.org/news/how-to-debug-kubernetes-apps-when-logs-fail-you-an-ebpf-tracing-handbook/",
-          "order": "3"
+          "order": "3",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "Second, learn how to perform secure hashing using Python's hashlib module. This is helpful for storing sensitive information, verifying file integrity, and other cybersecurity purposes.",
@@ -395,13 +922,17 @@
           "time_type": "minutes"
         },
         {
+          "description": "Third, learn how to build your own Log-Structured Merge Tree from scratch as a new way to store data in your apps. These work by \"appending new data to the existing data, instead of looking for something that exists and updating it. In other words, you don't have to spend any CPU cycles thinking about where to store data. You just append it at the end.\"",
           "link": "https://www.freecodecamp.org/news/build-an-lsm-tree-storage-engine-from-scratch-handbook/",
-          "order": "5"
+          "order": "5",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         }
-      ]
+      ],
+      "quote": "The day you stop waiting for your manager to tell you what's broken, and you start fixing the things everyone else is ignoring, is the day you start moving up.",
+      "quote_author": "Software Developer Santosh Yadav on this week's freeCodeCamp podcast"
     },
     {
-      "bonus": "*\"The promise was that AI was going to replace developers. We're seeing pretty clearly that's not the case. Anything beyond a toy, anything that requires maintenance or significant feature development, you can't vibe-code that. The strongest developers in the future are the ones who have the right skills to leverage AI effectively.\"* - Software Engineer Jason Lengstorf on this week's freeCodeCamp podcast",
       "date": "December 19, 2025",
       "links": [
         {
@@ -431,13 +962,15 @@
           "time_type": "hours"
         },
         {
+          "description": "Now you can learn Spanish on freeCodeCamp. We just launched our Spanish curriculum today, which we've been working on all year. You'll learn proper Spanish pronunciation, greetings, introductions, numbers, and more. You'll also learn how to type Spanish characters like this one \u00f1 on your phone and computer. We already have more than 200 steps live, with the rest of the CEFR A1 level going live in 2026. \u00a1Aprendamos!",
           "link": "https://www.freecodecamp.org/news/freecodecamps-a1-professional-spanish-curriculum-beta-is-now-live/",
           "order": "5"
         }
-      ]
+      ],
+      "quote": "The promise was that AI was going to replace developers. We're seeing pretty clearly that's not the case. Anything beyond a toy, anything that requires maintenance or significant feature development, you can't vibe-code that. The strongest developers in the future are the ones who have the right skills to leverage AI effectively.",
+      "quote_author": "Software Engineer Jason Lengstorf on this week's freeCodeCamp podcast"
     },
     {
-      "bonus": "*\"Open source saved my career. It gave me credibility, proof of work, skills, projects to showcase, and a network.\"* - Software Engineer Kunal Kushwaha on this week's freeCodeCamp podcast",
       "date": "December 12, 2025",
       "links": [
         {
@@ -471,10 +1004,11 @@
           "time_duration": "7",
           "time_type": "hours"
         }
-      ]
+      ],
+      "quote": "Open source saved my career. It gave me credibility, proof of work, skills, projects to showcase, and a network.",
+      "quote_author": "Software Engineer Kunal Kushwaha on this week's freeCodeCamp podcast"
     },
     {
-      "bonus": "*\"Take a moment to stop and think about what it is that truly matters to you. And then start making the changes that you need to make.\"* - Andrea Griffiths on this week's freeCodeCamp podcast talking about her decision to learn programming and launch into an entirely new career",
       "date": "December 5, 2025",
       "links": [
         {
@@ -510,10 +1044,11 @@
           "time_duration": "5",
           "time_type": "minutes"
         }
-      ]
+      ],
+      "quote": "Take a moment to stop and think about what it is that truly matters to you. And then start making the changes that you need to make.",
+      "quote_author": "Andrea Griffiths on this week's freeCodeCamp podcast talking about her decision to learn programming and launch into an entirely new career"
     },
     {
-      "bonus": "*\"Care less about school. It took me too long to realize that I should be doing more projects hands-on instead of worrying about trying to get like a 95 on a quiz that was worth 10 percent of my grade.\"* - Developer and university student Cindy Cui on this week's freeCodeCamp podcast",
       "date": "November 26, 2025",
       "links": [
         {
@@ -547,10 +1082,11 @@
           "time_duration": "10",
           "time_type": "minutes"
         }
-      ]
+      ],
+      "quote": "Care less about school. It took me too long to realize that I should be doing more projects hands-on instead of worrying about trying to get like a 95 on a quiz that was worth 10 percent of my grade.",
+      "quote_author": "Developer and university student Cindy Cui on this week's freeCodeCamp podcast"
     },
     {
-      "bonus": "*\"There's something liberating about realizing that at the end of the day everything reduces to zeros and ones. It's not magic. And once students see that, they think: OK, I got this.\"* - Harvard computer science professor David J. Malan on this week's freeCodeCamp podcast",
       "date": "November 21, 2025",
       "links": [
         {
@@ -586,10 +1122,11 @@
           "time_duration": "1",
           "time_type": "hours"
         }
-      ]
+      ],
+      "quote": "There's something liberating about realizing that at the end of the day everything reduces to zeros and ones. It's not magic. And once students see that, they think: OK, I got this.",
+      "quote_author": "Harvard computer science professor David J. Malan on this week's freeCodeCamp podcast"
     },
     {
-      "bonus": "*\"People get jobs years down the line because someone remembers them from an interview and wishes they could have hired them then.\"* - Software Engineer and former recruitment agency admin Abbey Perini on this week's freeCodeCamp podcast",
       "date": "November 14, 2025",
       "links": [
         {
@@ -627,10 +1164,11 @@
           "time_duration": "10",
           "time_type": "minutes"
         }
-      ]
+      ],
+      "quote": "People get jobs years down the line because someone remembers them from an interview and wishes they could have hired them then.",
+      "quote_author": "Software Engineer and former recruitment agency admin Abbey Perini on this week's freeCodeCamp podcast"
     },
     {
-      "bonus": "*\"I'd be happy sitting in a basement coding 8 hours a day. But I'm growing a lot faster trying to be an extrovert.\"* - Self-taught Software Engineer Patrick Hartley on this week's freeCodeCamp podcast",
       "date": "November 7, 2025",
       "links": [
         {
@@ -666,10 +1204,11 @@
           "time_duration": "1",
           "time_type": "hours"
         }
-      ]
+      ],
+      "quote": "I'd be happy sitting in a basement coding 8 hours a day. But I'm growing a lot faster trying to be an extrovert.",
+      "quote_author": "Self-taught Software Engineer Patrick Hartley on this week's freeCodeCamp podcast"
     },
     {
-      "bonus": "*\"Most developer stories about learning to code involve having time to do things like go to meetups, build side projects, grind LeetCode, and so on. I didn't have time or energy to do any of these things with a baby at home. So I found another way into my first developer job. For me, I had to find a way to get paid to code at my non-coding job. First I found a way to code for 5% of my job, then 10%, then a jump to 50%, and finally a jump to a 100% coding role.\"* - Software Engineer Eric Carlson on how he transitioned into a developer role within his current company at age 45, on this week's freeCodeCamp podcast",
       "date": "October 31, 2025",
       "links": [
         {
@@ -705,10 +1244,11 @@
           "time_duration": "5",
           "time_type": "hours"
         }
-      ]
+      ],
+      "quote": "Most developer stories about learning to code involve having time to do things like go to meetups, build side projects, grind LeetCode, and so on. I didn't have time or energy to do any of these things with a baby at home. So I found another way into my first developer job. For me, I had to find a way to get paid to code at my non-coding job. First I found a way to code for 5% of my job, then 10%, then a jump to 50%, and finally a jump to a 100% coding role.",
+      "quote_author": "Software Engineer Eric Carlson on how he transitioned into a developer role within his current company at age 45, on this week's freeCodeCamp podcast"
     },
     {
-      "bonus": "*\"If they won't hire you without a degree, they weren't a good fit for you anyway.\"* - Software Engineer Kaleb Garner on this week's freeCodeCamp podcast",
       "date": "October 24, 2025",
       "links": [
         {
@@ -744,10 +1284,11 @@
           "time_duration": "20",
           "time_type": "minutes"
         }
-      ]
+      ],
+      "quote": "If they won't hire you without a degree, they weren't a good fit for you anyway.",
+      "quote_author": "Software Engineer Kaleb Garner on this week's freeCodeCamp podcast"
     },
     {
-      "bonus": "*\"When I build things, I often start by prototyping the end developer experience I want for myself - then I reverse engineer from that to the implementation details.\"* - Software Engineer Evan You on this week's freeCodeCamp podcast",
       "date": "October 17, 2025",
       "links": [
         {
@@ -783,10 +1324,11 @@
           "time_duration": "15",
           "time_type": "minutes"
         }
-      ]
+      ],
+      "quote": "When I build things, I often start by prototyping the end developer experience I want for myself - then I reverse engineer from that to the implementation details.",
+      "quote_author": "Software Engineer Evan You on this week's freeCodeCamp podcast"
     },
     {
-      "bonus": "*\"Just start. Find an open source repo. Find an issue. Even if it's just a typo. Fix it and move on from there. That's how you gain experience and grow as a developer.\"* - Software Engineer Tom Mondloch on this week's freeCodeCamp podcast",
       "date": "October 3, 2025",
       "links": [
         {
@@ -824,10 +1366,11 @@
           "time_duration": "10",
           "time_type": "minutes"
         }
-      ]
+      ],
+      "quote": "Just start. Find an open source repo. Find an issue. Even if it's just a typo. Fix it and move on from there. That's how you gain experience and grow as a developer.",
+      "quote_author": "Software Engineer Tom Mondloch on this week's freeCodeCamp podcast"
     },
     {
-      "bonus": "*\"If you don't like playing the social media game, contributing code to open source projects can serve as an alternative to building up a social media presence.\"* - Software Engineer Ihechikara Abba on this week's freeCodeCamp podcast",
       "date": "September 27, 2025",
       "links": [
         {
@@ -865,10 +1408,11 @@
           "time_duration": "15",
           "time_type": "minutes"
         }
-      ]
+      ],
+      "quote": "If you don't like playing the social media game, contributing code to open source projects can serve as an alternative to building up a social media presence.",
+      "quote_author": "Software Engineer Ihechikara Abba on this week's freeCodeCamp podcast"
     },
     {
-      "bonus": "*\"If your goal is to ship something right now, you should use AI. But if your goal is to build something you can understand and talk about in front of employers, you shouldn't be using AI right now.\"* - Software Engineer Danny Thompson on this week's freeCodeCamp podcast",
       "date": "September 20, 2025",
       "links": [
         {
@@ -906,10 +1450,11 @@
           "time_duration": "10",
           "time_type": "minutes"
         }
-      ]
+      ],
+      "quote": "If your goal is to ship something right now, you should use AI. But if your goal is to build something you can understand and talk about in front of employers, you shouldn't be using AI right now.",
+      "quote_author": "Software Engineer Danny Thompson on this week's freeCodeCamp podcast"
     },
     {
-      "bonus": "*\"My worry is that with AI now people just stop learning the fundamentals. But then how do you fully understand something, really? You should definitely still learn the fundamentals before using all these AI tools.\"* - Software Engineer Ania Kub\u00f3w, who has taught some of YouTube's most popular LLM-focused courses, on this week's freeCodeCamp podcast",
       "date": "September 13, 2025",
       "links": [
         {
@@ -945,16 +1490,19 @@
           "time_duration": "10",
           "time_type": "minutes"
         }
-      ]
+      ],
+      "quote": "My worry is that with AI now people just stop learning the fundamentals. But then how do you fully understand something, really? You should definitely still learn the fundamentals before using all these AI tools.",
+      "quote_author": "Software Engineer Ania Kub\u00f3w, who has taught some of YouTube's most popular LLM-focused courses, on this week's freeCodeCamp podcast"
     },
     {
-      "bonus": "*\"To build any complex software, you need a lot of good engineers. You need engineers who can think about problems. You need engineers who can drill down into your own tasks and your own use cases.\"* - Software Engineer Ankur Tyagi on this week's freeCodeCamp podcast",
       "date": "September 6, 2025",
       "links": [
         {
           "description": "Learn about AI-assisted coding from a software engineer who's maintained freeCodeCamp's platform and infrastructure for the past 7 years. Mrugesh was initially skeptical of AI tools but has recently used them to great effect. And he wrote this handbook to help you do the same. He says experienced developers can complete tasks faster with AI assistance. But they need to know how to use these tools effectively. And they also need strong foundational programming skills. This handbook is a no-nonsense guide to emerging tools and best practices.",
           "link": "https://www.freecodecamp.org/news/how-to-become-an-expert-in-ai-assisted-coding-a-handbook-for-developers/",
-          "order": "1"
+          "order": "1",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "freeCodeCamp also published a course on building your own AI agent from scratch using Python. You'll implement the agentic loop. Then you'll endow your agent with the ability to read, write, and execute code. Finally, you'll supervise your agent as it goes through and makes fixes to an intentionally buggy codebase.",
@@ -984,10 +1532,11 @@
           "time_duration": "20",
           "time_type": "minutes"
         }
-      ]
+      ],
+      "quote": "To build any complex software, you need a lot of good engineers. You need engineers who can think about problems. You need engineers who can drill down into your own tasks and your own use cases.",
+      "quote_author": "Software Engineer Ankur Tyagi on this week's freeCodeCamp podcast"
     },
     {
-      "bonus": "*\"I was mopping floors in an outpatient surgical recovery room listening to the Code Newbies podcast when I first heard an interview with Quincy.\"* - Software Engineer Emmett Naughton on this week's freeCodeCamp podcast, sharing how he discovered the freeCodeCamp community and dove deeper into programming",
       "date": "August 30, 2025",
       "links": [
         {
@@ -1025,7 +1574,9 @@
           "time_duration": "10",
           "time_type": "minutes"
         }
-      ]
+      ],
+      "quote": "I was mopping floors in an outpatient surgical recovery room listening to the Code Newbies podcast when I first heard an interview with Quincy.",
+      "quote_author": "Software Engineer Emmett Naughton on this week's freeCodeCamp podcast, sharing how he discovered the freeCodeCamp community and dove deeper into programming"
     },
     {
       "bonus": "*\"Big change happens in small increments. Big change is possible with really small, consistent effort.\"* - Software Engineer Dominick Monaco on how he iterated his way to working as a developer over time, on this week's freeCodeCamp podcast",
@@ -1106,7 +1657,6 @@
       ]
     },
     {
-      "bonus": "*\"History has taught us: never underestimate the amount of money, time, and effort someone will expend to thwart a security system. It's always better to assume the worst. Assume your adversaries are better than they are. Assume science and technology will soon be able to do things they cannot yet. Give yourself a margin for error. Give yourself more security than you need today. When the unexpected happens, you'll be glad you did.\"* - Bruce Schneier, software engineer and security expert",
       "date": "August 9, 2025",
       "links": [
         {
@@ -1140,7 +1690,9 @@
           "link": "https://www.freecodecamp.org/news/shared-state-complexity-in-react-handbook/",
           "order": "5"
         }
-      ]
+      ],
+      "quote": "History has taught us: never underestimate the amount of money, time, and effort someone will expend to thwart a security system. It's always better to assume the worst. Assume your adversaries are better than they are. Assume science and technology will soon be able to do things they cannot yet. Give yourself a margin for error. Give yourself more security than you need today. When the unexpected happens, you'll be glad you did.",
+      "quote_author": "Bruce Schneier, software engineer and security expert"
     },
     {
       "date": "August 2, 2025",
@@ -1200,7 +1752,7 @@
           "time_type": "hours"
         },
         {
-          "description": "Want to get a developer job? Be shameless. That's the advice of this week's freeCodeCamp podcast guest, Namanh Kapur. He's a senior software engineer at LinkedIn and has a ton of hot takes on where the field is heading. He shares tips for how to interact with recruiters, which foundational developer skills he thinks you should prioritize learning, and how to get hired in what he calls the \"post-LeetCode world.\".",
+          "description": "Want to get a developer job? Be shameless. That's the advice of this week's freeCodeCamp podcast guest, Namanh Kapur. He's a senior software engineer at LinkedIn and has a ton of hot takes on where the field is heading. He shares tips for how to interact with recruiters, which foundational developer skills he thinks you should prioritize learning, and how to get hired in what he calls the \"post-LeetCode world.\"",
           "link": "https://www.freecodecamp.org/news/we-are-truly-in-the-hackathon-era-namanh-kapur-interview-podcast-180/",
           "order": "3",
           "time_duration": "1",
@@ -1237,7 +1789,9 @@
         {
           "description": "JavaScript is the most popular language on the planet. But it's also super duper prone to errors. Luckily, freeCodeCamp just dropped this comprehensive handbook to help you understand how JavaScript's error handling works. You'll learn about Try-Catch, Error Rethrowing, the Finally keyword, and the Error Object itself. We also show tons of example code that you can scrutinize and learn from.",
           "link": "https://www.freecodecamp.org/news/the-javascript-error-handling-handbook/",
-          "order": "2"
+          "order": "2",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "On this week's podcast, I interview a developer who had to apply to 800 jobs, but eventually landed one. Braydon Coyer started out building mobile apps in high school. At one point his iPhone game even out-sold Angry Birds for a day or two. He shares tons of strategies for applying for developer roles, sane ways to integrate AI into your developer workflows, and how to switch from mobile app dev to full stack dev. This dude is a blast.",
@@ -1338,7 +1892,9 @@
         {
           "description": "Finally, did you know that JavaScript is now one of the most popular languages for writing games? You can build some pretty sophisticated experiences that run right in a browser. This guide will walk you through five powerful JS libraries you can use to simplify your game development workflow and get your game in front of players as quickly as possible.",
           "link": "https://www.freecodecamp.org/news/javascript-frameworks-for-game-developers/",
-          "order": "5"
+          "order": "5",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         }
       ],
       "quote": "Running an open source project taught me more about software design and communication than any job I've had. You have to think about every decision from the perspective of a stranger reading your code.",
@@ -1350,10 +1906,12 @@
         {
           "description": "freeCodeCamp just published a new handbook on how to build your own custom Model Context Protocol (MCP) server. The entire MCP paradigm was just invented 7 months ago, so let me explain how it works. Before MCP, you needed to write custom connector code for each data source your LLM used -- such as calendars, map APIs, and sensor data streams. Sure -- tools like LangChain helped with this. But MCP makes things so much simpler. You just lay out how your data is structured. That way when an LLM connects, it can figure out how to get whatever data it needs all on its own. This MCP approach is an excellent complement to the Retrieval Augmented Generation technique developers were using last year.",
           "link": "https://www.freecodecamp.org/news/how-to-build-a-custom-mcp-server-with-typescript-a-handbook-for-developers/",
-          "order": "1"
+          "order": "1",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
-          "description": "Many of the recent breakthroughs in AI tools have been thanks to the Transformer Architecture pioneered at Google. This course will teach you how Transformers work, and how they're evolving. You'll learn about Attention Mechanisms, Positional Encoding, Activation Functions, and Normalization. Transformers! More than meets the eye!.",
+          "description": "Many of the recent breakthroughs in AI tools have been thanks to the Transformer Architecture pioneered at Google. This course will teach you how Transformers work, and how they're evolving. You'll learn about Attention Mechanisms, Positional Encoding, Activation Functions, and Normalization. Transformers! More than meets the eye!",
           "link": "https://www.freecodecamp.org/news/learn-the-evolution-of-the-transformer-architecture-used-in-llms/",
           "order": "2",
           "time_duration": "3",
@@ -1369,7 +1927,9 @@
         {
           "description": "Learn how to build your own embedded systems -- from smart fridges to home security systems. freeCodeCamp just published a comprehensive handbook that will teach you Firmware Design from the ground up. You'll learn about the Sense-Process-Act cycle that governs the behavior of most devices. Then you'll learn about low-level system design and modern best practices.",
           "link": "https://www.freecodecamp.org/news/learn-embedded-systems-firmware-basics-handbook-for-devs/",
-          "order": "4"
+          "order": "4",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "Finally, freeCodeCamp also published our first-ever course on the German language. Learn how to speak the native language of more than 100 million Europeans with this A1-level course for absolute beginners. You'll learn grammar, pronunciation, vocabulary, and a ton of common phrases you can use while traveling.",
@@ -1400,12 +1960,16 @@
         {
           "description": "Logic and reason underpin all of software development. And this freeCodeCamp handbook will teach you how to think critically when testing your code. You'll learn how to use Modus Ponens, Modus Tollens, Contrapositives, Truth Tables, and other philosophical tools to map out all the places where your software can go off the rails.",
           "link": "https://www.freecodecamp.org/news/the-logic-philosophy-and-science-of-software-testing-handbook-for-developers/",
-          "order": "3"
+          "order": "3",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "Learn the fundamentals of data communication and networking in this new freeCodeCamp handbook. You'll learn about routing, switching, Network Topologies, the seven layers of the OSI Model, and more.",
           "link": "https://www.freecodecamp.org/news/the-data-communication-and-networking-handbook/",
-          "order": "4"
+          "order": "4",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "Finally, you may practice good operational security on your laptop. But what about your phone? This quick article will give you some practical tips for locking down your phone.",
@@ -1445,12 +2009,16 @@
         {
           "description": "freeCodeCamp published a new handbook on the emerging architecture paradigm of Micro Frontends. You'll learn why this approach is gaining so much steam among software engineers. This handbook will teach you all about Module Federation, Cross-Window Messaging, the Shadow DOM, and more.",
           "link": "https://www.freecodecamp.org/news/complete-micro-frontends-guide/",
-          "order": "4"
+          "order": "4",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "And we published a handbook on Apple's code signing process. If you want to publish mobile apps in the Apple store, this handbook is a real lifesaver. It would have saved freeCodeCamp's team a ton of time when we were publishing the freeCodeCamp iOS app. We're going to publish a lot more hyper-specific handbooks like this in the future to make developers' lives a bit easier. Bookmark this and you can come back to it when you're ready to publish your first app.",
           "link": "https://www.freecodecamp.org/news/apple-code-signing-handbook/",
-          "order": "5"
+          "order": "5",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         }
       ],
       "quote": "You will not get opportunities unless you prove yourself first. And for proving yourself, there is no hiring manager coming to your door and saying, \u2018Hey, please build something for me.' You have to prove it by contributing to open source.",
@@ -1483,12 +2051,16 @@
         {
           "description": "freeCodeCamp published a couple handbooks this week, too. This first one will teach you how to build your own AI agents using open source tools like LangChain and LangGraph. You'll learn about automation workflows, agent loops, multi-agent collaboration, and more.",
           "link": "https://www.freecodecamp.org/news/the-open-source-llm-agent-handbook/",
-          "order": "4"
+          "order": "4",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "And this second handbook will take you on a deep dive into the world of Front End Monitoring. You'll learn how to collect performance data, error data, user behavior data, then make sense of these insights through modern reporting tools. If you're serious about leveling up your full stack development skills, I think you'll find this to be well worth reading.",
           "link": "https://www.freecodecamp.org/news/the-front-end-monitoring-handbook/",
-          "order": "5"
+          "order": "5",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         }
       ],
       "quote": "Computer Science fundamentals are more important than ever. As a software engineer, I want to understand things. I don't like just taking stuff at face value. I want to know why it works and what's going on behind the scenes.",
@@ -1507,7 +2079,9 @@
         {
           "description": "freeCodeCamp also published a full-length handbook that you can read right in your browser on the emerging field of Agentic AI Systems. Agents can go out and attempt tasks in the real world for you. Think of a shopping agent that knows your shoe size and preferences, and tries to find you the best deal on bowling shoes. You'll also learn how these systems use planning and goal setting rather than predefined actions. You can code along at home with the handbook and by the end of it, you'll have your own simple Python and LangChain-powered agent.",
           "link": "https://www.freecodecamp.org/news/the-agentic-ai-handbook/",
-          "order": "2"
+          "order": "2",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "On this week's podcast I interview a senior dev who was just laid off last week at Microsoft, and he walks us through everything. He has nerves of steel and seems totally unfazed by his coming job search. He talks about the role that both long-term planning and daily trail running have played in giving him resilience. It's clear to me that he's taken the time to prepare himself and his family for just about anything.",
@@ -1566,7 +2140,7 @@
           "time_type": "minutes"
         },
         {
-          "description": "I'm thrilled to announce that freeCodeCamp just published our first-ever course on a world language. This full-length Spanish for Beginners course will teach you basic grammar and vocabulary so you can speak at a CEFR A1 Level. The instructor has more than 17 years of experience teaching Spanish to beginners. \u00a1V\u00e1monos!.",
+          "description": "I'm thrilled to announce that freeCodeCamp just published our first-ever course on a world language. This full-length Spanish for Beginners course will teach you basic grammar and vocabulary so you can speak at a CEFR A1 Level. The instructor has more than 17 years of experience teaching Spanish to beginners. \u00a1V\u00e1monos!",
           "link": "https://www.freecodecamp.org/news/learn-a1-level-spanish/",
           "order": "5",
           "time_duration": "9",
@@ -1629,7 +2203,9 @@
         {
           "description": "Kubernetes (often shortened to k8s) is a powerful open source tool for deploying services to the web, then monitoring them and scaling them as needed. freeCodeCamp just published a comprehensive handbook that will teach you key k8s concepts like Pods, DaemonSets, StatefulSets, and more. If you code along at home, by the end of this handbook you'll deploy an app to a k8s cluster in the cloud.",
           "link": "https://www.freecodecamp.org/news/learn-kubernetes-handbook-devs-startups-businesses/",
-          "order": "2"
+          "order": "2",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "On this week's freeCodeCamp podcast, I interview Shashi Lo. He's a software engineer at Microsoft who grew up the child of refugees. He dropped out of art school and taught himself programming by building projects for local businesses. He shares techniques he uses to continue to learn skills even while he's busy raising his 4 kids.",
@@ -1648,7 +2224,9 @@
         {
           "description": "Finally, freeCodeCamp also published this Front-End Performance Optimization Handbook this week. You'll learn JavaScript tricks to ensure your web apps load quickly. You'll learn how to minimize file size, make fewer server requests, optimize images, and more. There are tons of techniques in here that I hadn't even heard of. This is well worth reading if you're serious about improving your web development skills.",
           "link": "https://www.freecodecamp.org/news/the-front-end-performance-optimization-handbook/",
-          "order": "5"
+          "order": "5",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         }
       ],
       "quote": "An ideal code review would be a small set of code changes that are easy to understand. You can pretty much read the code like a paragraph and understand what's happening. Smaller pull requests help you avoid regressions, and save time for both the code author and the code reviewer.",
@@ -1674,7 +2252,9 @@
         {
           "description": "freeCodeCamp just published yet another comprehensive handbook by CTO Omer Rosenbaum on how Internet Protocol Version 4 (IPv4) works. Note that even though IPv6 came out 13 years ago, IPv4 still handles a majority of web traffic. This handbook will teach you the basics of how IP addresses work. You'll also learn about Network Addressing Schemes, Packet Fragmentation Handling, Header Fields, Subnet Masks, and more.",
           "link": "https://www.freecodecamp.org/news/how-ipv4-works-a-handbook-for-developers/",
-          "order": "3"
+          "order": "3",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "Learn how to build your own DevOps pipeline using 100% freely available open source tools. This intermediate tutorial will show you step-by-step how to configure your cloud environment, set up Continuous Integration / Continuous Deployment, and orchestrate your containers. You'll also learn how to secure and monitor everything.",
@@ -1770,7 +2350,9 @@
         {
           "description": "Finally, freeCodeCamp just published this full-length handbook that will teach you all about Serverless Architecture, which simplifies development by letting you focus purely on application code. Psst -- serverless is a marketing term and does still involve servers. You'll learn how to set up a Docker image that you can then use with AWS Lambda functions to handle your server requests.",
           "link": "https://www.freecodecamp.org/news/serverless-architecture-with-aws-lambda/",
-          "order": "5"
+          "order": "5",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         }
       ],
       "quote": "I worked in spreadsheets. But as a data analyst, I had to learn SQL for the first time. The big transition was going from Excel to accessing a database, writing SQL, and then analyzing the data in a spreadsheet. Understanding how the tables connected, how joins worked - that was the bridge that helped me move further into engineering roles.",
@@ -1810,7 +2392,9 @@
         {
           "description": "If you've already learned languages like Python, JavaScript, and C++, and are looking for a new adventure, consider Clojure. It's a functional language based off of Lisp that can also leverage the Java Virtual Machine to run code in parallel. freeCodeCamp just published this comprehensive Clojure primer with interactive challenges that you can solve as you read.",
           "link": "https://www.freecodecamp.org/news/learn-clojure-programming-basics/",
-          "order": "5"
+          "order": "5",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         }
       ],
       "quote": "You can't just hang out with other developers - but never build anything - and expect to become a developer. At the same time, you can't just build things - but never deliver them to anybody - and expect to become a developer. You have to do both.",
@@ -1841,7 +2425,9 @@
         {
           "description": "The freeCodeCamp community is on a roll with another awesome handbook -- this time on cryptography. You'll learn the history of the RSA cryptosystem and the math that underpins it. You'll also learn about various attacks on the encryption scheme such as H\u00e5stad's Broadcast Attack, the Bleichenbacher Attack, the Malleability Exploit, and the many additions to RSA that have hardened it over the decades. Strong recommend.",
           "link": "https://www.freecodecamp.org/news/the-cryptography-handbook-rsa-algorithm/",
-          "order": "4"
+          "order": "4",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "Finally, did you know you could run your own home VPN off of a cheap Raspberry Pi computer? This freeCodeCamp tutorial will walk you through setting up a Tailscale open source mesh VPN for all your internet-connected devices, using the WireGuard protocol.",
@@ -1908,7 +2494,9 @@
         {
           "description": "freeCodeCamp also published a full-length handbook that will teach you the fundamentals of web accessibility. This way you'll be able to make your projects more usable by people who are living with disabilities. You'll learn about Semantic HTML and ARIA attributes. You'll then learn how to apply these tools to help people who have color blindness, or even full blindness. You'll also learn how to make your sites more accessible to people who navigate with a keyboard or a voice interface rather than a mouse. As I like to say, good accessibility is just good usability for everybody.",
           "link": "https://www.freecodecamp.org/news/the-web-accessibility-handbook/",
-          "order": "2"
+          "order": "2",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "On this week's freeCodeCamp podcast, I interview Jesse Hall. He's a software engineer who taught himself how to code while raising kids and working on the Best Buy Geek Squad fixing people's computers. He grew up in a trailer park in a one-stoplight town. He didn't get serious about coding until his 30s, when freeCodeCamp's curriculum helped him ultimately get a job at a big tech company.",
@@ -1948,7 +2536,9 @@
         {
           "description": "freeCodeCamp also just published this in-depth handbook on how to become a full stack developer in 2025. Author Prankur Pandey breaks down the key tools that web developers use these days, including DevOps tools. He also shares tips on preparing for coding interviews and the developer job search. He even has a section on how he leverages AI tools to help him get more done as a dev.",
           "link": "https://www.freecodecamp.org/news/become-a-full-stack-developer-and-get-a-job/",
-          "order": "2"
+          "order": "2",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "On this week's freeCodeCamp podcast, I interview prolific computer science educator Caleb Curry about his recent experience getting laid off as a developer, and how he succeeded in quickly landing a new role. Caleb recently started mentoring a few dozen people who are getting into the field, and he shares that same advice he's been giving them about focusing on a few key skills and going really deep. Caleb has a ton of tips for how to manage your information diet so you can gradually amass knowledge.",
@@ -2065,7 +2655,9 @@
         {
           "description": "If you want to expand your coding skills, consider learning Object-Oriented Programming (OOP). In this freeCodeCamp handbook, you'll learn about Inheritance, Prototypes, Object Blueprints, and other OOP concepts. Along the way you'll see tons of straightforward JavaScript code examples that you can implement yourself for practice.",
           "link": "https://www.freecodecamp.org/news/how-to-use-classes-in-javascript-handbook/",
-          "order": "1"
+          "order": "1",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "Learn how to code your own 3D browser games using the popular Three.JS JavaScript library. This step-by-step tutorial will teach you how to build your own browser-playable clone of the Frogger-like game Crossy Road. You'll learn how to render a polygonal map, animate cars, move the player character, detect collisions, and more.",
@@ -2105,7 +2697,9 @@
         {
           "description": "freeCodeCamp just published a full-length handbook that will teach you how to code in TypeScript. It's a type-safe superset of JavaScript. That means you'll be using the same JavaScript syntax and techniques you've already learned from freeCodeCamp, but with fewer errors thanks to static type checking. This book also teaches some front-end development concepts with React and Vite. Worth a read.",
           "link": "https://www.freecodecamp.org/news/learn-typescript-with-react-handbook/",
-          "order": "1"
+          "order": "1",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "freeCodeCamp also published a comprehensive course to prepare you (or your kids) for the Cambridge A-Level Computer Science exam. This exam is similar to Advanced Placement exams in the US or International Baccalaureate exams in other countries. So this course should be helpful for students regardless of where they live. It covers foundational CS concepts, algorithms, data structures, and other topics you'll encounter on the exam.",
@@ -2164,12 +2758,16 @@
         {
           "description": "If you're interested in security -- and you should be -- then this handbook is for you. You'll build your own scalable access control system for your apps. First you'll start by exploring the open source CASL library, a popular off-the-shelf tool for authorizing user access. Then you'll set to work coding your own permissions validation framework.",
           "link": "https://www.freecodecamp.org/news/how-to-build-scalable-access-control-for-your-web-app/",
-          "order": "4"
+          "order": "4",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "Learn asynchronous programming with TypeScript. If you already know some JavaScript, you can probably pick up TypeScript pretty easily. It's just JavaScript with statically typed variables, which results in fewer bugs. We recently upgraded our open source freeCodeCamp codebase from JavaScript to TypeScript. Anyway, this handbook will teach you key Async programming concepts like Promises, Callbacks, and Async/Await.",
           "link": "https://www.freecodecamp.org/news/learn-async-programming-in-typescript-promises-asyncawait-and-callbacks/",
-          "order": "5"
+          "order": "5",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         }
       ],
       "quote": "If I was going to start learning programming from zero, where I had zero context, I'd learn IT fundamentals: how networking works, how the internet works, DNS, how packets transfer data, how computers communicate with each other. Because at the end of the day, all these servers in the cloud use networking to talk to each other. The second skill I'd spend my time on is learning how Linux works.",
@@ -2270,7 +2868,9 @@
         {
           "description": "Learn about the emerging field of AI Engineering, which is essentially adding AI to existing websites and apps. 90% of AI Engineering is just good old-fashioned web development with a few new tools and APIs sprinkled in. This handbook will give you an overview of the field, with case studies and helpful career tips for getting started.",
           "link": "https://www.freecodecamp.org/news/the-ai-engineering-handbook-how-to-start-a-career-and-excel-as-an-ai-engineer/",
-          "order": "2"
+          "order": "2",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "On this week's freeCodeCamp podcast, I interview software engineer Elliot Arledge about building new AI systems from scratch. Elliot has taught several popular freeCodeCamp courses, including one on GPU programming with CUDA. He shares his own approach to reading academic papers -- an important skill -- and tips for assimilating new concepts quickly.",
@@ -2362,7 +2962,9 @@
         {
           "description": "freeCodeCamp just published a full-length handbook on Object Oriented Programming with C#. This book dives into the many C# class design patterns, including Sealed Classes, Singleton Classes, Concrete Classes, and more. This is just one of many C#-related learning resources we'll publish in 2025.",
           "link": "https://www.freecodecamp.org/news/classes-in-c-sharp-handbook-with-examples/",
-          "order": "4"
+          "order": "4",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "You can make learning to code a bit easier by focusing on the fundamentals. freeCodeCamp's curriculum is just one path, but we have tons of extra-curricular resources, too. This article will give you some tips for learning algorithms, data structures, programming languages, and other software engineering tools.",
@@ -2503,7 +3105,9 @@
         {
           "description": "If you already know a little JavaScript and want to learn Python, too, this handbook is for you. It will turbo-charge your learning by teaching you the similarities between these two high level scripting languages. You'll learn how each language approaches Syntax, Data Structures, Modules, Error Handling, and more. You'll even get some side-by-side script comparisons so that you can appreciate the nuanced differences in how these languages get things done. My humble advice is to learn both of these languages, and to learn them well. They will only become more and more central to software development over the next 20 years.",
           "link": "https://www.freecodecamp.org/news/learn-python-for-javascript-developers-handbook/",
-          "order": "1"
+          "order": "1",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "Learn how to run Large Language Models on your own computer -- no cloud servers required. This course will teach you how to use Ollama to run the Llama LLM. You'll be able to access its APIs and Python libraries so you can build AI-powered apps locally. Along the way, you'll apply these new skills to build your own grocery list organizer, Retrieval Augmented Generation system, and recruitment agency app.",
@@ -2555,7 +3159,7 @@
           "time_type": "minutes"
         },
         {
-          "description": "On this week's freeCodeCamp podcast, I talk with Tim Ruscica, software engineer and host of the popular Tech with Tim YouTube channel. We talk about how Tim learned computer architecture as a kid by playing Minecraft, then managed to land a Microsoft internship when he was just 19. He also shares his insights on learning to code, and why he recommends Python as a first programming language: \"It's the least overwhelming thing to get your hands dirty.\".",
+          "description": "On this week's freeCodeCamp podcast, I talk with Tim Ruscica, software engineer and host of the popular Tech with Tim YouTube channel. We talk about how Tim learned computer architecture as a kid by playing Minecraft, then managed to land a Microsoft internship when he was just 19. He also shares his insights on learning to code, and why he recommends Python as a first programming language: \"It's the least overwhelming thing to get your hands dirty.\"",
           "link": "https://www.freecodecamp.org/news/tech-with-tim-freecodecamp-podcast-150/",
           "order": "3",
           "time_duration": "2",
@@ -2790,7 +3394,6 @@
       "quote_author": "Philippe Kahn, software engineer and founder of 4 tech companies"
     },
     {
-      "bonus": "Joke of the Week: *\"A couple of relational databases walked into a NoSQL bar. They left because they couldn't find a table.\"* - Kenneth Fisher, Database Administrator",
       "date": "Oct 11, 2024",
       "links": [
         {
@@ -2828,7 +3431,9 @@
           "time_duration": "40",
           "time_type": "minutes"
         }
-      ]
+      ],
+      "quote": "A couple of relational databases walked into a NoSQL bar. They left because they couldn't find a table.",
+      "quote_author": "Kenneth Fisher, Database Administrator"
     },
     {
       "date": "Oct 4, 2024",
@@ -2843,7 +3448,9 @@
         {
           "description": "freeCodeCamp also published a couple full length programming handbooks this week. Here's one that will help you learn how to use the light-weight open source SQLite database with Python. You'll learn how to create your own database tables, insert data, query your database with Python, use transactions, and handle errors. This is a beginner-friendly handbook that can read, code along with, and bookmark for future reference.",
           "link": "https://www.freecodecamp.org/news/work-with-sqlite-in-python-handbook/",
-          "order": "2"
+          "order": "2",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "On this week's podcast, I interview ex-Google software engineer YK Sugi on the reality of today's developer job market. We talk about the role of interest rates in employers' hiring patterns, and how devs are adopting emerging AI tools to get more done. YK grew up in Japan, and he also shares some differences between the software industries in Japan and in the US. I had a blast talking with him and learned a lot. I hope you will, too.",
@@ -2966,7 +3573,9 @@
         {
           "description": "And if you want to go even deeper into AI engineering, this handbook will teach you how AI Agents can help you supercharge your Language Models. You'll learn some of the history and philosophy behind AI agents, and how developers progressed from Rule-Based Systems to Machine Learning over the decades. You'll also learn what kinds of problems current generation AI Agents are best applied to, such as debugging a script or maximizing the amount of natural light in an architectural design.",
           "link": "https://www.freecodecamp.org/news/how-ai-agents-can-supercharge-language-models-handbook/",
-          "order": "2"
+          "order": "2",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "On this week's podcast I interview Jack Herrington, the Blue Collar Coder. As a kid, Jack had to work to overcome Dyslexia, and didn't have good enough grades to get into college. Despite this, he taught himself to code while working blue collar jobs. He has now worked as a software engineer for more than 40 years at companies like Nike, Adobe, and Walmart. We talk about his war stories from the field, and the 6 programming books he's published along the way. We also talk about his love of bad movies.",
@@ -3006,7 +3615,9 @@
         {
           "description": "\"Multimodal\" Data Analysis is when you can give an AI several different types of input, such as text, images, and audio. This beginner's course will teach you how to perform Multimodal Data Analysis using Python and Large Language Models. It's taught by Dr. Immanuel Trummer, a computer science professor from Cornell. Strong recommend.",
           "link": "https://www.freecodecamp.org/news/master-multimodal-data-analysis-with-llms-and-python/",
-          "order": "2"
+          "order": "2",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "This week on the freeCodeCamp Podcast, I interview Emma Bostian, a senior engineer at Spotify. At her first job after college, her boss told her: \"You need to get your stuff together or you won't make it in this industry.\" She doubled down on her coding skills, making heavy use of the freeCodeCamp curriculum. She talks about lessons she's learned along the way, and what she looks for when she's hiring new developers.",
@@ -3198,7 +3809,6 @@
       "quote_author": "Grady Booch, software engineer and creator of Unified Modeling Language"
     },
     {
-      "bonus": "Joke of the Week: *\"There are only two hard things in computer science: cache invalidation, naming things, and off-by-one errors.\"* - Leon Bambrick, programmer",
       "date": "July 26, 2024",
       "links": [
         {
@@ -3236,10 +3846,11 @@
           "time_duration": "30",
           "time_type": "minutes"
         }
-      ]
+      ],
+      "quote": "There are only two hard things in computer science: cache invalidation, naming things, and off-by-one errors.",
+      "quote_author": "Leon Bambrick, programmer"
     },
     {
-      "bonus": "Joke of the Week: *\"Why do programmers prefer dark mode? Because light attracts bugs.\"* - ShivamLH on Reddit",
       "date": "July 19, 2024",
       "links": [
         {
@@ -3257,7 +3868,7 @@
           "time_type": "hours"
         },
         {
-          "description": "On this week's podcast, I interview Jessica Chan, AKA Coder Coder. She's a software engineer who has worked in the field for more than a decade. Interestingly, she studied photography in school and never even took a programming class. We talk about how as a kid she and her sister ran a dial-in BBS back before there were websites. We also talk about how she stayed at her first developer job for 7 years, and how she spent the first year of it \"in abject fear of losing my job.\".",
+          "description": "On this week's podcast, I interview Jessica Chan, AKA Coder Coder. She's a software engineer who has worked in the field for more than a decade. Interestingly, she studied photography in school and never even took a programming class. We talk about how as a kid she and her sister ran a dial-in BBS back before there were websites. We also talk about how she stayed at her first developer job for 7 years, and how she spent the first year of it \"in abject fear of losing my job.\"",
           "link": "https://www.freecodecamp.org/news/from-doing-data-entry-to-becoming-a-developer-with-jessica-chan-aka-coder-coder-podcast-132/",
           "order": "3",
           "time_duration": "2",
@@ -3277,7 +3888,9 @@
           "time_duration": "20",
           "time_type": "minutes"
         }
-      ]
+      ],
+      "quote": "Why do programmers prefer dark mode? Because light attracts bugs.",
+      "quote_author": "ShivamLH on Reddit"
     },
     {
       "date": "July 12, 2024",
@@ -3348,7 +3961,9 @@
         {
           "description": "Learn about State Management in JavaScript with this new Redux Data Flow Handbook. Joan Ayebola is a Front End Developer who has a knack for explaining technical concepts in a way newbie devs can understand. Her book will teach you how to harness the power of Unidirectional Data Flows in your app. You'll learn about Reducer Functions, Dispatching Actions, Redux Middleware, and more.",
           "link": "https://www.freecodecamp.org/news/how-data-flows-in-redux/",
-          "order": "4"
+          "order": "4",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "And finally, tell your Spanish-speaking friends: freeCodeCamp just published a new course on React for beginners. Carpi Coder, a Spanish-speaking software engineer, will teach you how to leverage the flexible React front-end JavaScript library. You'll also learn how to fetch data from a Firebase API and display it in your app.",
@@ -3372,7 +3987,7 @@
           "time_type": "hours"
         },
         {
-          "description": "Vim is a powerful code editor that comes built-in with most operating systems, including Linux and MacOS. Vim lets you to do almost anything with just a few keystrokes. You'll never need to take your hand off your keyboard to reach for your mouse again. This course by CTO Andrew Brown will give you a solid foundation in using Vim in just a few hours. Then if you want to become as proficient as he is, you can keep practicing while coding over the coming months, and feel that sheer build-up of speed. Ride like the wind!.",
+          "description": "Vim is a powerful code editor that comes built-in with most operating systems, including Linux and MacOS. Vim lets you to do almost anything with just a few keystrokes. You'll never need to take your hand off your keyboard to reach for your mouse again. This course by CTO Andrew Brown will give you a solid foundation in using Vim in just a few hours. Then if you want to become as proficient as he is, you can keep practicing while coding over the coming months, and feel that sheer build-up of speed. Ride like the wind!",
           "link": "https://www.freecodecamp.org/news/mastering-vim-your-guide-to-efficient-text-editing/",
           "order": "2",
           "time_duration": "4",
@@ -3395,7 +4010,9 @@
         {
           "description": "There's a ton of hype around Generative AI. But it's not all hype -- there's some real utility there, too. This new handbook will lay out some of the ways companies are using GenAI to discover new medicines and coordinate responses to emergencies. It's a breezy read written with non-developers in mind, summarizing a lot of recent research papers.",
           "link": "https://www.freecodecamp.org/news/generative-ai-handbook/",
-          "order": "5"
+          "order": "5",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         }
       ],
       "quote": "Whether it's a 2D game or a 3D game, I always try to create a believable world for that game. Even the text of a game can contribute to that world feeling alive, I think. Having text prepared for every place you investigate, and having that text change depending on the circumstances, I think really helps create the illusion that you are \"in\" that world.",
@@ -3428,7 +4045,9 @@
         {
           "description": "freeCodeCamp just published an entire handbook focused on PHP and its powerful array data structure. It's chock-full of code examples. You can code along at home and build your own soccer player sports card app. This is another excellent PHP reference from prolific author Kolade Chris.",
           "link": "https://www.freecodecamp.org/news/php-arrays-how-to-rebuild-the-football-team-cards-with-php-and-mongodb/",
-          "order": "4"
+          "order": "4",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "The Black-Scholes Equation is the most important mathematical formula that most people have never heard of. Black-Scholes completely revolutionized corporate finance when it was discovered in 1973. This tutorial will explain how the formula works, and how you can implement it in Python. Then you'll use it to predict the price of concert tickets, and learn about its many other real-world applications.",
@@ -3475,7 +4094,9 @@
         {
           "description": "You may have heard people talk about an emerging technique called Retrieval-Augmented Generation (RAG). This is when an AI looks up information from outside sources to improve its own responses. Well, freeCodeCamp just published a handbook that will help you understand RAG so you can use it in your AI models. Even if you don't have time to read the whole thing, I still encourage you to bookmark it for future reference.",
           "link": "https://www.freecodecamp.org/news/retrieval-augmented-generation-rag-handbook/",
-          "order": "5"
+          "order": "5",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         }
       ],
       "quote": "If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.",
@@ -3583,12 +4204,16 @@
         {
           "description": "freeCodeCamp just published a handbook that can help you prepare for coding interviews during your job search. You'll learn key JavaScript concepts like hoisting, closures, and currying -- all with code examples. You'll also learn how to use Asynchronous Programming keywords like async and await. This is an excellent reference that you can come back to time and time again, so be sure to bookmark it.",
           "link": "https://www.freecodecamp.org/news/js-interview-prep-handbook/",
-          "order": "3"
+          "order": "3",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "We also published a comprehensive handbook on Object-Oriented Programming in JavaScript. This will teach you how JS Classes work, and how you can use them to implement design patterns. You'll learn about Constructors, Class Field Methods, the \"super\" keyword, and the famously confusing \"this\" keyword. Learn it, know it, live it.",
           "link": "https://www.freecodecamp.org/news/javascript-class-handbook/",
-          "order": "4"
+          "order": "4",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "In Machine Learning, Fine-Tuning is the process of taking a model that you've already trained (or a foundation model like Llama) and enhancing it with your own datasets. For example, you could take a Large Language Model and make it much better at chess by fine-tuning it by feeding it thousands of famous chess games. This course will first teach you about Quantization, a technique to optimize models for efficiency. Then you'll learn modern methods of fine-tuning like LORA and QLORA. Next you'll delve into Gradient-based optimization methods. Finally you'll learn how to build AI pipelines and how to fine-tune models using your own datasets.",
@@ -3640,7 +4265,8 @@
           "time_duration": "1",
           "time_type": "hours"
         }
-      ]
+      ],
+      "quote": "Do you have any idea how fast you were driving?"
     },
     {
       "date": "May 10, 2024",
@@ -3753,7 +4379,9 @@
         {
           "description": "The Rust programming language has become quite popular recently. Even Linux now uses Rust in its kernel. A few years back, freeCodeCamp published a comprehensive interactive Rust course. And today I'm thrilled to share this new Rust Procedural Macros handbook. Procedural Macros let you execute Rust code at compile time, and Rust developers use these all the time. This handbook should serve as a helpful reference for you if you want to level up your Rust skills.",
           "link": "https://www.freecodecamp.org/news/procedural-macros-in-rust/",
-          "order": "4"
+          "order": "4",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "And finally, Tell your Spanish-speaking friends: freeCodeCamp just published a new course on Responsive Web Design, taught by Spanish-speaking software engineer David Choi. This course will teach you how to set up your developer environment, structure your web pages using HTML, and define CSS styles for both mobile and desktop viewport sizes.",
@@ -3772,7 +4400,9 @@
         {
           "description": "Learn statistics for Data Science and AI Machine Learning. freeCodeCamp just published this handbook that will help you learn key concepts like Bayes' Theorem, Confidence Intervals, and the Central Limit Theorem. It covers both the classical math notation and Python implementations of these concepts. This is a broad primer for developers who are getting into stats, and it's also a helpful reference you can bookmark and pull up as needed.",
           "link": "https://www.freecodecamp.org/news/statistics-for-data-scientce-machine-learning-and-ai-handbook/",
-          "order": "1"
+          "order": "1",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "And if you want to dig even further into applied Data Science, freeCodeCamp also published this in-depth Python course on A/B Testing and optimization. It will teach you core concepts like Hypothesis Testing, Statistical Significance Levels, Pooled Estimates, and P-values.",
@@ -3864,7 +4494,9 @@
         {
           "description": "Learn Git fundamentals. freeCodeCamp just published this new handbook that will teach you how to get things done with a version control system. You'll learn how to set up your first code repository, create branches, commit code, and push changes to production. You can code along at home with this book's many tutorials, and bookmark it for future reference.",
           "link": "https://www.freecodecamp.org/news/learn-git-basics/",
-          "order": "3"
+          "order": "3",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "Learn the latest version of the popular React Router JavaScript library. This course will teach you how to build Single Page Apps where your users can navigate from one React view to another without the page refreshing. You'll also get practice defining routes, passing parameters, and managing state transitions.",
@@ -3885,7 +4517,6 @@
       "quote_author": "Donald Knuth on all the code he wrote from scratch in researching his classic book \"The Art of Computer Programming\""
     },
     {
-      "bonus": "Joke of the Week: *\"Me: I'm afraid of JavaScript keywords. Therapist: tell me about THIS. Me: Aghhh!\"* - Carla Notarobot, Software Engineer and Bad Joke Sharer",
       "date": "Mar 29, 2024",
       "links": [
         {
@@ -3923,7 +4554,9 @@
           "time_duration": "2",
           "time_type": "hours"
         }
-      ]
+      ],
+      "quote": "Me: I'm afraid of JavaScript keywords. Therapist: tell me about THIS. Me: Aghhh!",
+      "quote_author": "Carla Notarobot, Software Engineer and Bad Joke Sharer"
     },
     {
       "date": "Mar 22, 2024",
@@ -3943,7 +4576,9 @@
         {
           "description": "How can two people communicate securely through an insecure channel? That is a fundamental challenge in cryptography. One approach is by using the Diffie-Hellman Key Exchange algorithm. freeCodeCamp just published a handbook that will teach you how to leverage Diffie-Hellman to protect your data in transit, as it moves from between clients and servers. This handbook dives deep into the math that makes this possible, and uses tons of diagrams to explain the theory. It also explores older solutions, such as Hash-based Message Authentication Code. And you'll immediately put all this new knowledge to use by building a secure messaging project.",
           "link": "https://www.freecodecamp.org/news/hmac-diffie-hellman-in-node/",
-          "order": "3"
+          "order": "3",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "Spring Boot is a popular web development framework for Java, and it's used by tons of big companies like Walmart, General Motors, and Chase. Dan Vega is a prolific teacher of Java. He developed this new course to help more people learn the latest version of Spring Boot so they can build enterprise-grade apps. His passion for Java really comes through in this course.",
@@ -4002,7 +4637,6 @@
       "quote_author": "James Joyce, Irish novelist and poet"
     },
     {
-      "bonus": "Joke of the Week: *\"Why do Java developers wear glasses? Because they can't C#.\"",
       "date": "Mar 8, 2024",
       "links": [
         {
@@ -4015,7 +4649,9 @@
         {
           "description": "Prolific freeCodeCamp author Nathan Sebhastian just published his React for Beginners Handbook. You can read the full book and learn how to code React-powered JavaScript apps. Along the way you'll learn about Components, Props, States, Events, and even Network Requests.",
           "link": "https://www.freecodecamp.org/news/react-for-beginners-handbook/",
-          "order": "2"
+          "order": "2",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "This new Machine Learning course will give you a clear roadmap toward building your own AIs. Data Scientist Tatev Aslanyan teaches this Python course. She covers key statistical concepts like Logistic Regression, Outlier Detection, Correlation Analysis, and the Bias-Variance Trade-Off. She also shares some common career paths for working in the field of Machine Learning.",
@@ -4027,7 +4663,9 @@
         {
           "description": "But you don't have to learn a ton of Statistics and Machine Learning to get more out of AI. You can first focus on just getting better at talking to AI. This new Prompt Engineering Handbook will give you practical tips for getting better images, text, and code out of Large Language Models like GPT-4.",
           "link": "https://www.freecodecamp.org/news/advanced-prompt-engineering-handbook/",
-          "order": "4"
+          "order": "4",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "In this week's episode of the freeCodeCamp podcast, I interview education charity founder Seth Goldin. He's a computer science student at Yale and has taught several popular freeCodeCamp courses. We talk about the future of education, and the risks and opportunities presented by powerful AI systems like ChatGPT. During this fun, casual conversation, we make sure to explain all the specialized terminology as it comes up. And like most of our episodes, this podcast is 100% OK to listen to around kids.",
@@ -4064,7 +4702,9 @@
         {
           "description": "freeCodeCamp just published another full-length handbook -- this time on Regular Expressions. RegEx are one of the most powerful -- and most confusing -- features of modern programming languages. You can use RegEx to search through data, validate user input, and even find complex patterns within text. This handbook will teach you key concepts like anchors, grouping, metacharacters, and lookahead. And you'll learn a lot of advanced JavaScript RegEx techniques, too.",
           "link": "https://www.freecodecamp.org/news/regex-in-javascript/",
-          "order": "4"
+          "order": "4",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "Serverless Architecture is a popular approach toward building apps in 2024. Despite the name, there are still servers in a data center somewhere. This isn't magic. But the tools abstract the servers away for you. In this intermediate JavaScript course, Software Engineer Justin Mitchel will teach you how to take a simple Node.js app and run it on AWS Lambda with a serverless Postgres database. He'll even show you how to automate deployment using GitHub Actions and Vercel.",
@@ -4090,12 +4730,16 @@
         {
           "description": "Many of the recent breakthroughs in AI are thanks to advances in Deep Learning. In this intermediate-level handbook, Data Scientist Tatev Aslanyan will teach you the fundamentals of Deep Learning and Artificial Neural Networks. She'll give you a solid foundation that you can use as a springboard into the more advanced areas of machine learning. You'll learn about Optimization Algorithms, Vanishing Gradient Problems, Sequence Modeling, and more.",
           "link": "https://www.freecodecamp.org/news/deep-learning-fundamentals-handbook-start-a-career-in-ai/",
-          "order": "2"
+          "order": "2",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "The Document Object Model (DOM) is like a big Christmas tree that you hang ornament-like HTML elements on. This front-end development handbook will teach you how the DOM works, and how you can use it to make interactive web pages. You'll learn about DOM Traversal, Class Manipulation, Event Bubbling, and other key concepts.",
           "link": "https://www.freecodecamp.org/news/javascript-in-the-browser-dom-and-events/",
-          "order": "3"
+          "order": "3",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "On this week's episode of the freeCodeCamp Podcast, I interview Jessica Wilkins, an orchestral musician from Los Angeles turned software engineer. We talk about how ridiculously competitive the world of classical music is, and how it gave her the mental toughness that she needed to learn to code. Jessica ultimately turned down contracts from Disney and other music industry titans so that she could focus on transitioning into tech. She was a prolific volunteer contributor to the freeCodeCamp codebase and core curriculum, and now works on our team. I think you'll dig our conversation -- especially if you're interested in the overlap between music and technology.",
@@ -4126,7 +4770,9 @@
         {
           "description": "It's hard to predict the exact order in which things will happen in life. That's certainly the case in software. Thankfully, developers have pioneered a more flexible approach called Asynchronous Programming. And JavaScript is especially well-equipped for async programming thanks to its special Promise objects. freeCodeCamp just published this JavaScript Promises handbook to teach you common async patterns. You'll also learn about error handling, promise chaining, and async anti-patterns to avoid.",
           "link": "https://www.freecodecamp.org/news/the-javascript-promises-handbook/",
-          "order": "2"
+          "order": "2",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "Code your own product landing page using SveltKit. Software Engineer James McArthur will teach you all about Svelt, SveltKit, Tailwind CSS, and the benefits of Server-Side Rendering. He'll even show you how to deploy your site to the web, and add a modern CI/CD pipeline. This course will give you a good mix of theory and practice.",
@@ -4248,7 +4894,9 @@
         {
           "description": "And if you want to learn even more Python, freeCodeCamp just published an entire handbook on the art and science of Python debugging. You'll learn how to interpret common Python error messages. You'll also learn common debugging techniques like Logging, Assertions, Exception Handling, and Unit Testing. Along the way, you'll use Code Linters, Analyzers, and other powerful code editor tools.",
           "link": "https://www.freecodecamp.org/news/python-debugging-handbook/",
-          "order": "2"
+          "order": "2",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "OpenAI just released their new Assistants API to help you build your own personal AI assistants. And this project-oriented course will show you how to code up some minions that can do your bidding. You'll learn how to use Python, Streamlit, and the Assistants API to code your own news summarizer project and your own study buddy app.",
@@ -4393,7 +5041,6 @@
       "quote_author": "Jack Forge, software developer"
     },
     {
-      "bonus": "Joke of the Week: *\"Why do programmers always mix up Christmas and Halloween? Because Dec 25 = Oct 31.\"* In programming, Dec stands for Decimal, meaning a base-10 number system. And Oct stands for Octal, meaning a base-8 number system. So Dec 25 really does equal Oct 31. I know \u2013 this isn't the funniest programmer joke ever, but it is fun to think about.",
       "date": "Dec 22, 2023",
       "links": [
         {
@@ -4418,14 +5065,17 @@
         {
           "description": "Figma is a popular design and app prototyping tool. And they recently introduced a powerful feature that lets you declare variables, then use them throughout your projects. A lot of designers think this is a big deal. And freeCodeCamp just published a comprehensive handbook that will teach you how to leverage these Figma variables, so you can use them in your designs.",
           "link": "https://www.freecodecamp.org/news/variables-in-figma-handbook/",
-          "order": "4"
+          "order": "4",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "On this week's freeCodeCamp Podcast, I interview Kylie Ying, a software engineer and AI researcher. We talk about her 5 years at MIT and her time at CERN working on the Large Hadron Collider. We also talk about competitive figure skating, poker-playing AIs, and the many courses she's published on freeCodeCamp over the years.",
           "link": "https://www.freecodecamp.org/news/podcast-kylie-ying-mit-cern/",
           "order": "5"
         }
-      ]
+      ],
+      "quote": "Why do programmers always mix up Christmas and Halloween? Because Dec 25 = Oct 31."
     },
     {
       "date": "Dec 15, 2023",
@@ -4447,7 +5097,9 @@
         {
           "description": "If you're just starting your coding journey, don't let all these advanced topics intimidate you. freeCodeCamp just published a book that should be right up your alley. My friend Fatos authored \"How to Start Learning to Code -- a Handbook for Beginners.\" It will teach you about developer careers and how you can join the ranks of more than 30 million professional developers on Earth. Learning to code is a marathon -- not a sprint. And Fatos will give you lots of practical tips to help you power through the checkpoints.",
           "link": "https://www.freecodecamp.org/news/learn-coding-for-everyone-handbook/",
-          "order": "3"
+          "order": "3",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "And another friend, Andrew Brown, just published a complete refresh of his Microsoft Azure Fundamentals certification course. It will help you learn cloud engineering fundamentals and prepare for Microsoft's AZ-900 exam. Andrew is a former CTO who has passed every cloud certification under the sun. He is the most qualified person imaginable to help you earn these r\u00e9sum\u00e9-reinforcing cloud certs.",
@@ -4833,7 +5485,9 @@
         {
           "description": "Arduino is a popular open source hardware project. You can use Arduino microcontrollers to build musical instruments, automate your home, prototype your electronics, or even gather climate data for a farm. This week freeCodeCamp published our Arduino Handbook to help you learn the Arduino programming language and how to leverage its powerful ecosystem of tools.",
           "link": "https://www.freecodecamp.org/news/the-arduino-handbook",
-          "order": "2"
+          "order": "2",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "Learn how to build and deploy your own Ecommerce app using the latest version of the popular Next.js framework. You'll build a fully-functional shop complete with authentication and shopping cart functionality. You can code along at home and use the latest tools for everything: Tailwind CSS, the daisyUI component library, Prisma and MongoDB for data storage, and Vercel for deploying your shop to the cloud.",
@@ -4969,7 +5623,9 @@
         {
           "description": "CSS transitions are a high-performance way to animate a webpage directly -- using its HTML elements. And this handbook will teach you how to harness their power. You'll learn about animation keyframes, timing, looping, and more.",
           "link": "https://www.freecodecamp.org/news/css-transition-vs-css-animation-handbook/",
-          "order": "4"
+          "order": "4",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "Finally, freeCodeCamp published a Fundamentals of Finance and Economics course. It covers a lot of key concepts you learn in business school, such as Time-Value of Money, Capital Budgeting, Financial Statements, and how Macroeconomic Forces shape industries. We plan to publish a lot more courses like this one in the future, to complement our already massive selection of math and computer science courses.",
@@ -4996,7 +5652,9 @@
         {
           "description": "If you're brand new to HTML and CSS, this is the book for you. You'll learn about HTML, the skeleton of a webpage. You'll learn about CSS, the skin of a webpage. You'll even learn a little about JavaScript, the muscles of a webpage. Sprinkle in some DevTools and HTTP requests. Now you've got a proper web dev primer. Enjoy the book, and bookmark it for future reference as well.",
           "link": "https://www.freecodecamp.org/news/html-css-handbook-for-beginners/",
-          "order": "2"
+          "order": "2",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "Code your own cloud storage app using contemporary web development tools. This course will teach you how to use TypeScript -- a version of JavaScript where all your variables are statically typed. This reduces bugs. You'll also use Next.js, a powerful front end framework. Then you'll layer on Tailwind CSS, a popular library for styling your user interface components. Finally, you'll learn how to use Firebase 9 to store your data.",
@@ -5008,7 +5666,9 @@
         {
           "description": "New developers often ask me how they can get some practical experience writing software. My answer: contribute to open source projects. There are thousands of software engineers out there who will review your work and give you feedback. Some of your code may even make it into production, where many people will benefit from it. Each open source contribution you make to a project like freeCodeCamp is a feather in your cap. And this book will show you how to get started with open source.",
           "link": "https://www.freecodecamp.org/news/how-to-contribute-to-open-source-handbook/",
-          "order": "4"
+          "order": "4",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "How do you filter the signal from the noise? Why, through Signal Processing. This is the set of techniques that engineers have used for decades to make clearer television signals, phone calls, and even medical diagnostic images. This tutorial will bring you up to speed on Signal Processing and Fast Fourier Transforms, which underpin many file compression algorithms. You'll also learn about Causality, Linearity, and Time-invariance.",
@@ -5040,12 +5700,16 @@
         {
           "description": "This week, freeCodeCamp published The C Programming Handbook. It will teach you the basics of coding in C, one of the oldest and most important languages. You can read the entire book in your browser, and bookmark it for future reference. The book covers Data Types, Operators, Conditional Logic, Loops, and more fundamental coding concepts. Time spent improving your C is never wasted.",
           "link": "https://www.freecodecamp.org/news/the-c-programming-handbook-for-beginners/",
-          "order": "3"
+          "order": "3",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "And we also published a handbook on Agile Software Development methodologies. You'll learn about the Agile Manifesto and how it spawned a sm\u00f6rg\u00e5sbord of approaches to building projects. You'll read about Scrum, Kanban, Extreme Programming, and how to ship features at scale. If you want your team to benefit from some of these concepts, this book is an excellent place to get started.",
           "link": "https://www.freecodecamp.org/news/agile-software-development-handbook/",
-          "order": "4"
+          "order": "4",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "20 years ago, a few developers sat down to catalog the most common security issues they were discovering on the web. And from that, the OWASP Top 10 emerged as a popular reference for devs. You can use OWASP as a checklist to ensure a baseline level of security in your apps. This course will teach you how to spot these common pitfalls and avoid them in your projects.",
@@ -5234,7 +5898,9 @@
         {
           "description": "We also published an API development handbook. This book will walk you through setting up your own backend architecture using the powerful FastAPI Python framework. You'll learn how to structure your API, add a database, test it, and deploy it. Along the way, you'll code your own IMDB-like review aggregator site. Be sure to bookmark this and share it with your developer friends.",
           "link": "https://www.freecodecamp.org/news/fastapi-quickstart/",
-          "order": "2"
+          "order": "2",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "And if you want to go even deeper into full-stack web development, this next course is for you. You'll code your own Next.js front end, API backend, and secure JSON Web Token user authentication system. You'll also learn about Middleware Route Protection, Appwrite, and MongoDB databases.",
@@ -5347,7 +6013,6 @@
       "quote_author": "Anders Hejlsberg, Co-creator of TypeScript"
     },
     {
-      "bonus": "Joke of the Week: *\"It's only called a Neural Network if it comes from the Neural\u00e8 region of France. Otherwise you have to call it a logistic regression.\"* - Vicki Boykis, Machine Learning Engineer",
       "date": "July 7, 2023",
       "links": [
         {
@@ -5385,7 +6050,9 @@
           "time_duration": "20",
           "time_type": "minutes"
         }
-      ]
+      ],
+      "quote": "It's only called a Neural Network if it comes from the Neural\u00e8 region of France. Otherwise you have to call it a logistic regression.",
+      "quote_author": "Vicki Boykis, Machine Learning Engineer"
     },
     {
       "date": "June 30, 2023",
@@ -6100,7 +6767,9 @@
         {
           "description": "Security Researcher and freeCodeCamp contributor Sonya Moisset just made her Open Source Security Handbook freely available. If you're planning to open-source some of your code, this should be a helpful read. You'll learn about Static Analysis, Supply Chain Attacks, Secret Sprawl, and other s words.",
           "link": "https://www.freecodecamp.org/news/oss-security-best-practices/",
-          "order": "2"
+          "order": "2",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "Excel is a surprisingly powerful tool for doing data analysis. And you can get even more mileage out of Excel if you meld it with Python and the popular Pandas library. This tutorial will teach you how to merge spreadsheets, clean and filter them, and import them into datasets. You'll even learn how to turn spreadsheet data into Matplotlib data visualizations.",
@@ -6719,7 +7388,9 @@
         {
           "description": "Testing is a vital part of the software development process. You want to ensure that all your app's features work as intended. Thankfully, there are some powerful tools out there to help you write robust tests. This handbook will teach you how to code the most fundamental type of test: unit tests. It will also show you some web development best practices for using Jest and the React Testing Library.",
           "link": "https://www.freecodecamp.org/news/how-to-write-unit-tests-in-react-redux/",
-          "order": "3"
+          "order": "3",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "Learn CSS and Responsive Web Design for beginners. Jessica's new guide will walk you through one of freeCodeCamp's most popular projects: coding your own caf\u00e9 menu. She'll show you how to build it step-by-step. You can do this entire project on freeCodeCamp's core curriculum interactively, and reference Jessica's article when you get stuck or just need additional context.",
@@ -7629,7 +8300,9 @@
         {
           "description": "If you are new to algorithms, this is handbook is a great place to start. It's chock-full of JavaScript algorithm code examples. And it explains key concepts like Time Complexity and Big O Notation.",
           "link": "https://www.freecodecamp.org/news/introduction-to-algorithms-with-javascript-examples/",
-          "order": "2"
+          "order": "2",
+          "time_duration": "full-length",
+          "time_type": "handbook"
         },
         {
           "description": "Learn how to incorporate speech recognition into your Python apps. In this course, you'll build 5 Python projects: a YouTube video transcriber, a sentiment analysis tool, a podcast summarizer, and more. Along the way, you'll learn how to use PyAudio, Streamlit, OpenAI, and the AssemblyAI API.",
@@ -8562,12 +9235,11 @@
       "quote_author": "Shigeru Miyamoto, Creator of Super Mario Bros."
     },
     {
-      "bonus": "It runs on PC, Mac, and Linux, and we'll soon publish mobile versions of the game, too. You can also watch the 1-hour \"let's play\" video with Ania Kubow and the game's         developer, Lynn Zheng. (fully playable 3 hour game): https://www.freecodecamp.org/news/learn-to-code-rpg/",
       "date": "December 24, 2021",
       "links": [
         {
-          "description": "We did it. We built a video game. It took 8 months, but Learn To Code RPG is now live, and you can play it for yourself. In this visual novel video game, you learn to code, make friends, and apply for developer.",
-          "link": null,
+          "description": "We did it. We built a video game. It took 8 months, but Learn To Code RPG is now live, and you can play it for yourself. In this visual novel video game, you learn to code, make friends, and apply for developer jobs. It features original anime-inspired art and a jazz soundtrack written and performed by me. There are more than 600 Computer Science concept quiz questions, dozens of Easter eggs to discover, and multiple endings. And it's all open source. It runs on PC, Mac, and Linux, and we'll soon publish mobile versions of the game, too. You can also watch the 1-hour \"let's play\" video with Ania Kubow and the game's developer, Lynn Zheng.",
+          "link": "https://www.freecodecamp.org/news/learn-to-code-rpg/",
           "order": "1"
         },
         {
@@ -9744,7 +10416,7 @@
           "time_type": "minutes"
         },
         {
-          "description": "Jack Schofield was a prolific journalist who wrote about technology for nearly four decades. Along the way he made three big observations about computers, which his fans dubbed \"Schofield's Laws.\".",
+          "description": "Jack Schofield was a prolific journalist who wrote about technology for nearly four decades. Along the way he made three big observations about computers, which his fans dubbed \"Schofield's Laws.\"",
           "link": "https://www.freecodecamp.org/news/schofields-laws-of-computing/",
           "order": "3",
           "time_duration": "8",
@@ -11619,7 +12291,7 @@
           "time_type": "minutes"
         },
         {
-          "description": "And finally, learn some spicy SQL with these five easy recipes. \"I like to think of WHERE, JOIN, COUNT, and GROUP_CONCAT as the salt, fat, acid, and heat of database cooking.\".",
+          "description": "And finally, learn some spicy SQL with these five easy recipes. \"I like to think of WHERE, JOIN, COUNT, and GROUP_CONCAT as the salt, fat, acid, and heat of database cooking.\"",
           "link": "https://www.freecodecamp.org/news/sql-recipes/",
           "order": "5",
           "time_duration": "7",
@@ -12907,7 +13579,7 @@
       "date": "October 31, 2019",
       "links": [
         {
-          "description": "A quantum computer just solved a problem that should take supercomputers 10,000 years to solve. And it solved the problem in just 200 seconds. Here's a plain-English explanation of what quantum computing is, how it works, and Google's new claim to \"quantum supremacy\".",
+          "description": "A quantum computer just solved a problem that should take supercomputers 10,000 years to solve. And it solved the problem in just 200 seconds. Here's a plain-English explanation of what quantum computing is, how it works, and Google's new claim to \"quantum supremacy\"",
           "link": "https://www.freecodecamp.org/news/what-is-quantum-computing-googles-quantum-supremacy-claim-explained/",
           "order": "1",
           "time_duration": "4",
@@ -14639,7 +15311,7 @@
           "time_type": "minutes"
         },
         {
-          "description": "How to beat procrastination by \"eating frogs\".",
+          "description": "How to beat procrastination by \"eating frogs\"",
           "link": "https://medium.freecodecamp.org/543b07ecf360",
           "order": "5",
           "time_duration": "15",
@@ -16233,7 +16905,7 @@
           "time_type": "minutes"
         },
         {
-          "description": "Preethi left a dream job as a venture capitalist to learn to code and work as a developer. Today on her \"Ask Preethi\" YouTube series, she answers the question: \"After you complete coding tutorials, how do you take what you've learned and build something real?\".",
+          "description": "Preethi left a dream job as a venture capitalist to learn to code and work as a developer. Today on her \"Ask Preethi\" YouTube series, she answers the question: \"After you complete coding tutorials, how do you take what you've learned and build something real?\"",
           "link": "https://www.youtube.com/watch?v=OxfJ7xw5hQE",
           "order": "3",
           "time_duration": "13",
@@ -16925,7 +17597,7 @@
           "time_type": "minutes"
         },
         {
-          "description": "An interview with the creator of Linux: \"Successful projects are 99 percent perspiration, and one percent innovation\".",
+          "description": "An interview with the creator of Linux: \"Successful projects are 99 percent perspiration, and one percent innovation\"",
           "link": "http://bit.ly/2llSIcL",
           "order": "3",
           "time_duration": "3",
@@ -17347,7 +18019,7 @@
           "time_type": "minutes"
         },
         {
-          "description": "Watch a Tesla drive itself around town and parallel park to the Rolling Stone's \"Paint it Black\".",
+          "description": "Watch a Tesla drive itself around town and parallel park to the Rolling Stone's \"Paint it Black\"",
           "link": "http://bit.ly/2fhoVz2n",
           "order": "3",
           "time_duration": "4",
@@ -18053,7 +18725,7 @@
           "order": "2"
         },
         {
-          "description": "Last year, programmer and journalist Paul Ford wrote an 30,000 word interactive essay called \"What is Code\" (http://bloom.bg/23tbUWe). This week, CodeNewbie interviewed him about his essay and what drew him to programming.",
+          "description": "Last year, programmer and journalist Paul Ford wrote an 30,000 word interactive essay called \"What is Code\"",
           "link": "http://bit.ly/25YSmrI",
           "order": "3"
         }
